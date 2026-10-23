@@ -1,0 +1,6 @@
+.godot/
+*.tmp
+project.godot.before-godot-ai-*
+docs/*.log
+addons/.godot_ai_update/
+export_credentials.cfg

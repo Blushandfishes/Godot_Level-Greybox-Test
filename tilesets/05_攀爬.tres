@@ -1,0 +1,99 @@
+[gd_resource type="TileSet" format=3 uid="uid://bau20jpu5pqrf"]
+
+[ext_resource type="Texture2D" uid="uid://rq21160mq031" path="res://assets/atlases/vol2_climb.png" id="1_fm0fb"]
+[ext_resource type="Texture2D" uid="uid://dcki6684lgxak" path="res://assets/atlases/vol3_climb.png" id="2_6oylm"]
+[ext_resource type="Texture2D" uid="uid://dpbparxtuep2y" path="res://assets/atlases/forest_props.png" id="3_go0as"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_cidem"]
+resource_name = "洞穴与遗迹 · 攀爬组件 | Vol. 2 / Climbing Parts"
+texture = ExtResource("1_fm0fb")
+0:0/0 = 0
+0:0/0/custom_data_0 = "vol2/climb/ladder_mid"
+0:0/0/custom_data_1 = "ladder_mid"
+0:0/0/custom_data_2 = "climb"
+0:0/0/custom_data_3 = "climb"
+0:0/0/custom_data_4 = "vol2"
+1:0/0 = 0
+1:0/0/custom_data_0 = "vol2/climb/ladder_top"
+1:0/0/custom_data_1 = "ladder_top"
+1:0/0/custom_data_2 = "climb"
+1:0/0/custom_data_3 = "climb"
+1:0/0/custom_data_4 = "vol2"
+2:0/0 = 0
+2:0/0/custom_data_0 = "vol2/climb/rope"
+2:0/0/custom_data_1 = "rope"
+2:0/0/custom_data_2 = "climb"
+2:0/0/custom_data_3 = "climb"
+2:0/0/custom_data_4 = "vol2"
+3:0/0 = 0
+3:0/0/custom_data_0 = "vol2/climb/vine_hanging"
+3:0/0/custom_data_1 = "vine_hanging"
+3:0/0/custom_data_2 = "climb"
+3:0/0/custom_data_3 = "climb"
+3:0/0/custom_data_4 = "vol2"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_8r2da"]
+resource_name = "城堡与沼泽 · 攀爬组件 | Vol. 3 / Climbing Parts"
+texture = ExtResource("2_6oylm")
+0:0/0 = 0
+0:0/0/custom_data_0 = "vol3/climb/ladder_mid"
+0:0/0/custom_data_1 = "ladder_mid"
+0:0/0/custom_data_2 = "climb"
+0:0/0/custom_data_3 = "climb"
+0:0/0/custom_data_4 = "vol3"
+1:0/0 = 0
+1:0/0/custom_data_0 = "vol3/climb/ladder_top"
+1:0/0/custom_data_1 = "ladder_top"
+1:0/0/custom_data_2 = "climb"
+1:0/0/custom_data_3 = "climb"
+1:0/0/custom_data_4 = "vol3"
+2:0/0 = 0
+2:0/0/custom_data_0 = "vol3/climb/rope"
+2:0/0/custom_data_1 = "rope"
+2:0/0/custom_data_2 = "climb"
+2:0/0/custom_data_3 = "climb"
+2:0/0/custom_data_4 = "vol3"
+3:0/0 = 0
+3:0/0/custom_data_0 = "vol3/climb/vine_hanging"
+3:0/0/custom_data_1 = "vine_hanging"
+3:0/0/custom_data_2 = "climb"
+3:0/0/custom_data_3 = "climb"
+3:0/0/custom_data_4 = "vol3"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ur61a"]
+resource_name = "森林 · 场景道具 | Forest / Props"
+texture = ExtResource("3_go0as")
+5:0/0 = 0
+5:0/0/custom_data_0 = "forest/props/ladder"
+5:0/0/custom_data_1 = "ladder"
+5:0/0/custom_data_2 = "props"
+5:0/0/custom_data_3 = "climb"
+5:0/0/custom_data_4 = "forest"
+9:0/0 = 0
+9:0/0/custom_data_0 = "forest/props/vine"
+9:0/0/custom_data_1 = "vine"
+9:0/0/custom_data_2 = "props"
+9:0/0/custom_data_3 = "climb"
+9:0/0/custom_data_4 = "forest"
+
+[resource]
+resource_name = "05_攀爬"
+physics_layer_0/collision_layer = 1
+physics_layer_0/collision_mask = 4
+physics_layer_1/collision_layer = 2
+physics_layer_1/collision_mask = 4
+physics_layer_2/collision_layer = 8
+physics_layer_2/collision_mask = 4
+custom_data_layer_0/name = "asset_key"
+custom_data_layer_0/type = 4
+custom_data_layer_1/name = "display_name"
+custom_data_layer_1/type = 4
+custom_data_layer_2/name = "category"
+custom_data_layer_2/type = 4
+custom_data_layer_3/name = "behavior"
+custom_data_layer_3/type = 4
+custom_data_layer_4/name = "pack"
+custom_data_layer_4/type = 4
+sources/9 = SubResource("TileSetAtlasSource_ur61a")
+sources/17 = SubResource("TileSetAtlasSource_cidem")
+sources/37 = SubResource("TileSetAtlasSource_8r2da")

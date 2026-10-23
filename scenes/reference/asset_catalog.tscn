@@ -1,0 +1,341 @@
+[gd_scene format=4]
+
+[ext_resource type="TileSet" path="res://tilesets/00_全部素材.tres" id="1_pr84t"]
+
+[node name="AssetCatalog" type="Node2D" unique_id=182399739]
+texture_filter = 1
+
+[node name="Catalog_全部素材" type="TileMapLayer" parent="." unique_id=1688286927]
+tile_map_data = PackedByteArray("AAAAAAIAAAAAAAAAAAAEAAIAAAADAAAAAAAGAAIAAAAEAAAAAAAAAAgAAQAAAAAAAAAEAAgAAQADAAAAAAAIAAgAAQAGAAAAAAAAAA4AAgAAAAAAAAACAA4AAgABAAAAAAAEAA4AAgACAAAAAAAAABIAAwAAAAAAAAACABIAAwABAAAAAAAEABIAAwACAAAAAAAGABIAAwADAAAAAAAIABIAAwAEAAAAAAAKABIAAwAFAAAAAAAMABIAAwAGAAAAAAAOABIAAwAHAAAAAAAQABIAAwAIAAAAAAASABIAAwAJAAAAAAAUABIAAwAKAAAAAAAAABYABAAAAAAAAAACABYABAABAAAAAAAEABYABAACAAAAAAAGABYABAADAAAAAAAAABoABQAAAAAAAAACABoABQABAAAAAAAEABoABQACAAAAAAAAAB4ABgAAAAAAAAACAB4ABgABAAAAAAAEAB4ABgACAAAAAAAAACIABwAAAAAAAAACACIABwABAAAAAAAEACIABwACAAAAAAAAACYACAAAAAAAAAACACYACAABAAAAAAAEACYACAACAAAAAAAAACoACQAAAAAAAAACACoACQABAAAAAAAEACoACQACAAAAAAAGACoACQADAAAAAAAIACoACQAEAAAAAAAKACoACQAFAAAAAAAMACoACQAGAAAAAAAOACoACQAHAAAAAAAQACoACQAIAAAAAAASACoACQAJAAAAAAAUACoACQAKAAAAAAAAAC4ACgAAAAAAAAACAC4ACgABAAAAAAAEAC4ACgACAAAAAAAGAC4ACgADAAAAAAAIAC4ACgAEAAAAAAAKAC4ACgAFAAAAAAAMAC4ACgAGAAAAAAAOAC4ACgAHAAAAAAAQAC4ACgAIAAAAAAASAC4ACgAJAAAAAAAUAC4ACgAKAAAAAAAWAC4ACgALAAAAAAAYAC4ACgAMAAAAAAAAADIACwAAAAAAAAACADIACwABAAAAAAAEADIACwACAAAAAAAGADIACwADAAAAAAAIADIACwAEAAAAAAAKADIACwAFAAAAAAAMADIACwAGAAAAAAAOADIACwAHAAAAAAAQADIACwAIAAAAAAASADIACwAJAAAAAAAUADIACwAKAAAAAAAWADIACwALAAAAAAAYADIACwAMAAAAAAAAADYADAAAAAAAAAACADYADAABAAAAAAAEADYADAACAAAAAAAGADYADAADAAAAAAAIADYADAAEAAAAAAAKADYADAAFAAAAAAAMADYADAAGAAAAAAAOADYADAAHAAAAAAAQADYADAAIAAAAAAASADYADAAJAAAAAAAUADYADAAKAAAAAAAWADYADAALAAAAAAAYADYADAAMAAAAAAAAADoADQAAAAAAAAACADoADQABAAAAAAAEADoADQACAAAAAAAGADoADQADAAAAAAAIADoADQAEAAAAAAAKADoADQAFAAAAAAAMADoADQAGAAAAAAAOADoADQAHAAAAAAAQADoADQAIAAAAAAASADoADQAJAAAAAAAUADoADQAKAAAAAAAWADoADQALAAAAAAAYADoADQAMAAAAAAAAAD4ADgAAAAAAAAAEAD4ADgADAAAAAAAIAD4ADgAGAAAAAAAAAEQADwAAAAAAAAACAEQADwABAAAAAAAAAEgAEAAAAAAAAAACAEgAEAABAAAAAAAEAEgAEAACAAAAAAAGAEgAEAADAAAAAAAIAEgAEAAEAAAAAAAKAEgAEAAFAAAAAAAMAEgAEAAGAAAAAAAOAEgAEAAHAAAAAAAAAEwAEQAAAAAAAAACAEwAEQABAAAAAAAEAEwAEQACAAAAAAAGAEwAEQADAAAAAAAAAFAAEgAAAAAAAAACAFAAEgABAAAAAAAEAFAAEgACAAAAAAAGAFAAEgADAAAAAAAIAFAAEgAEAAAAAAAKAFAAEgAFAAAAAAAMAFAAEgAGAAAAAAAOAFAAEgAHAAAAAAAQAFAAEgAIAAAAAAAAAFQAEwAAAAAAAAADAFQAEwACAAAAAAAGAFQAEwAEAAAAAAAJAFQAEwAGAAAAAAAAAFkAFAAAAAAAAAACAFkAFAABAAAAAAAEAFkAFAACAAAAAAAGAFkAFAADAAAAAAAIAFkAFAAEAAAAAAAKAFkAFAAFAAAAAAAMAFkAFAAGAAAAAAAOAFkAFAAHAAAAAAAQAFkAFAAIAAAAAAASAFkAFAAJAAAAAAAUAFkAFAAKAAAAAAAWAFkAFAALAAAAAAAAAF0AFQAAAAAAAAACAF0AFQABAAAAAAAEAF0AFQACAAAAAAAGAF0AFQADAAAAAAAIAF0AFQAEAAAAAAAKAF0AFQAFAAAAAAAMAF0AFQAGAAAAAAAAAGEAFgAAAAAAAAACAGEAFgABAAAAAAAEAGEAFgACAAAAAAAGAGEAFgADAAAAAAAIAGEAFgAEAAAAAAAAAGUAFwAAAAAAAAACAGUAFwABAAAAAAAEAGUAFwACAAAAAAAGAGUAFwADAAAAAAAAAGkAGAAAAAAAAAACAGkAGAABAAAAAAAEAGkAGAACAAAAAAAGAGkAGAADAAAAAAAIAGkAGAAEAAAAAAAKAGkAGAAFAAAAAAAMAGkAGAAGAAAAAAAAAG0AGQAAAAAAAAACAG0AGQABAAAAAAAEAG0AGQACAAAAAAAAAHEAGgAAAAAAAAACAHEAGgABAAAAAAAEAHEAGgACAAAAAAAAAHUAGwAAAAAAAAACAHUAGwABAAAAAAAEAHUAGwACAAAAAAAAAHkAHAAAAAAAAAACAHkAHAABAAAAAAAEAHkAHAACAAAAAAAAAH0AHQAAAAAAAAACAH0AHQABAAAAAAAEAH0AHQACAAAAAAAGAH0AHQADAAAAAAAIAH0AHQAEAAAAAAAKAH0AHQAFAAAAAAAMAH0AHQAGAAAAAAAOAH0AHQAHAAAAAAAQAH0AHQAIAAAAAAASAH0AHQAJAAAAAAAAAIEAHgAAAAAAAAADAIEAHgACAAAAAAAFAIEAHgADAAAAAAAHAIEAHgAEAAAAAAAJAIEAHgAFAAAAAAALAIEAHgAGAAAAAAAAAIYAHwAAAAAAAAACAIYAHwABAAAAAAAEAIYAHwACAAAAAAAGAIYAHwADAAAAAAAIAIYAHwAEAAAAAAAKAIYAHwAFAAAAAAAMAIYAHwAGAAAAAAAOAIYAHwAHAAAAAAAQAIYAHwAIAAAAAAASAIYAHwAJAAAAAAAUAIYAHwAKAAAAAAAAAIoAIAAAAAAAAAACAIoAIAABAAAAAAAEAIoAIAACAAAAAAAGAIoAIAADAAAAAAAIAIoAIAAEAAAAAAAKAIoAIAAFAAAAAAAMAIoAIAAGAAAAAAAOAIoAIAAHAAAAAAAQAIoAIAAIAAAAAAASAIoAIAAJAAAAAAAUAIoAIAAKAAAAAAAAAI4AIQAAAAAAAAACAI4AIQABAAAAAAAEAI4AIQACAAAAAAAGAI4AIQADAAAAAAAIAI4AIQAEAAAAAAAKAI4AIQAFAAAAAAAMAI4AIQAGAAAAAAAOAI4AIQAHAAAAAAAQAI4AIQAIAAAAAAASAI4AIQAJAAAAAAAUAI4AIQAKAAAAAAAAAJIAIgAAAAAAAAACAJIAIgABAAAAAAAEAJIAIgACAAAAAAAGAJIAIgADAAAAAAAIAJIAIgAEAAAAAAAKAJIAIgAFAAAAAAAMAJIAIgAGAAAAAAAOAJIAIgAHAAAAAAAQAJIAIgAIAAAAAAASAJIAIgAJAAAAAAAUAJIAIgAKAAAAAAAAAJYAIwAAAAAAAAACAJYAIwABAAAAAAAAAJoAJAAAAAAAAAACAJoAJAABAAAAAAAEAJoAJAACAAAAAAAGAJoAJAADAAAAAAAIAJoAJAAEAAAAAAAKAJoAJAAFAAAAAAAMAJoAJAAGAAAAAAAOAJoAJAAHAAAAAAAQAJoAJAAIAAAAAAASAJoAJAAJAAAAAAAUAJoAJAAKAAAAAAAWAJoAJAALAAAAAAAYAJoAJAAMAAAAAAAaAJoAJAANAAAAAAAAAJ4AJQAAAAAAAAACAJ4AJQABAAAAAAAEAJ4AJQACAAAAAAAGAJ4AJQADAAAAAAAAAKIAJgAAAAAAAAACAKIAJgABAAAAAAAEAKIAJgACAAAAAAAGAKIAJgADAAAAAAAIAKIAJgAEAAAAAAAKAKIAJgAFAAAAAAAMAKIAJgAGAAAAAAAOAKIAJgAHAAAAAAAQAKIAJgAIAAAAAAAAAKYAJwAAAAAAAAACAKYAJwABAAAAAAAEAKYAJwACAAAAAAAGAKYAJwADAAAAAAAIAKYAJwAEAAAAAAAKAKYAJwAFAAAAAAAMAKYAJwAGAAAAAAAOAKYAJwAHAAAAAAAQAKYAJwAIAAAAAAASAKYAJwAJAAAAAAAUAKYAJwAKAAAAAAAAAKoAKAAAAAAAAAADAKoAKAACAAAAAAAGAKoAKAAEAAAAAAAJAKoAKAAGAAAAAAAAAK8AKQAAAAAAAAACAK8AKQABAAAAAAAEAK8AKQACAAAAAAAGAK8AKQADAAAAAAAIAK8AKQAEAAAAAAAKAK8AKQAFAAAAAAAMAK8AKQAGAAAAAAAOAK8AKQAHAAAAAAAQAK8AKQAIAAAAAAASAK8AKQAJAAAAAAAUAK8AKQAKAAAAAAAWAK8AKQALAAAAAAAAALMAKgAAAAAAAAACALMAKgABAAAAAAAEALMAKgACAAAAAAAGALMAKgADAAAAAAAIALMAKgAEAAAAAAAKALMAKgAFAAAAAAAMALMAKgAGAAAAAAAAALcAKwAAAAAAAAACALcAKwABAAAAAAAEALcAKwACAAAAAAAGALcAKwADAAAAAAAIALcAKwAEAAAAAAAKALcAKwAFAAAAAAAMALcAKwAGAAAAAAAOALcAKwAHAAAAAAAQALcAKwAIAAAAAAASALcAKwAJAAAAAAAUALcAKwAKAAAAAAAAALsALAAAAAAAAAACALsALAABAAAAAAAEALsALAACAAAAAAAAAL8ALQAAAAAAAAACAL8ALQABAAAAAAAEAL8ALQACAAAAAAAGAL8ALQADAAAAAAAIAL8ALQAEAAAAAAAKAL8ALQAFAAAAAAAMAL8ALQAGAAAAAAAAAMMALgAAAAAAAAACAMMALgABAAAAAAAEAMMALgACAAAAAAAAAMcALwAAAAAAAAACAMcALwABAAAAAAAEAMcALwACAAAAAAAAAMsAMAAAAAAAAAACAMsAMAABAAAAAAAEAMsAMAACAAAAAAAAAM8AMQAAAAAAAAACAM8AMQABAAAAAAAEAM8AMQACAAAAAAAAANMAMgAAAAAAAAACANMAMgABAAAAAAAEANMAMgACAAAAAAAGANMAMgADAAAAAAAIANMAMgAEAAAAAAAKANMAMgAFAAAAAAAMANMAMgAGAAAAAAAOANMAMgAHAAAAAAAQANMAMgAIAAAAAAASANMAMgAJAAAAAAAUANMAMgAKAAAAAAAAANcAMwAAAAAAAAACANcAMwABAAAAAAAEANcAMwACAAAAAAAGANcAMwADAAAAAAAIANcAMwAEAAAAAAAKANcAMwAFAAAAAAAMANcAMwAGAAAAAAAOANcAMwAHAAAAAAAQANcAMwAIAAAAAAASANcAMwAJAAAAAAAUANcAMwAKAAAAAAAAANsANAAAAAAAAAACANsANAABAAAAAAAEANsANAACAAAAAAAGANsANAADAAAAAAAIANsANAAEAAAAAAAKANsANAAFAAAAAAAMANsANAAGAAAAAAAOANsANAAHAAAAAAAQANsANAAIAAAAAAASANsANAAJAAAAAAAUANsANAAKAAAAAAAAAN8ANQAAAAAAAAACAN8ANQABAAAAAAAEAN8ANQACAAAAAAAGAN8ANQADAAAAAAAIAN8ANQAEAAAAAAAKAN8ANQAFAAAAAAAMAN8ANQAGAAAAAAAOAN8ANQAHAAAAAAAQAN8ANQAIAAAAAAASAN8ANQAJAAAAAAAUAN8ANQAKAAAAAAAAAOMANgAAAAAAAAACAOMANgABAAAAAAAEAOMANgACAAAAAAAGAOMANgADAAAAAAAIAOMANgAEAAAAAAAKAOMANgAFAAAAAAAMAOMANgAGAAAAAAAOAOMANgAHAAAAAAAQAOMANgAIAAAAAAASAOMANgAJAAAAAAAUAOMANgAKAAAAAAA=")
+tile_set = ExtResource("1_pr84t")
+collision_enabled = false
+
+[node name="@Label@2" type="Label" parent="." unique_id=1521322290]
+offset_top = 16.0
+offset_bottom = 16.0
+theme_override_font_sizes/font_size = 10
+text = "森林 · 灌木 | Forest / Bushes"
+
+[node name="@Label@3" type="Label" parent="." unique_id=170555807]
+offset_top = 112.0
+offset_bottom = 112.0
+theme_override_font_sizes/font_size = 10
+text = "森林 · 云与天空 | Forest / Clouds and Sky"
+
+[node name="@Label@4" type="Label" parent="." unique_id=1900027388]
+offset_top = 208.0
+offset_bottom = 208.0
+theme_override_font_sizes/font_size = 10
+text = "森林 · 危险物与机关 | Forest / Hazards and Gadgets"
+
+[node name="@Label@5" type="Label" parent="." unique_id=139841078]
+offset_top = 272.0
+offset_bottom = 272.0
+theme_override_font_sizes/font_size = 10
+text = "森林 · 自然装饰 | Forest / Nature"
+
+[node name="@Label@6" type="Label" parent="." unique_id=1815949943]
+offset_top = 336.0
+offset_bottom = 336.0
+theme_override_font_sizes/font_size = 10
+text = "森林 · 拾取物 | Forest / Pickups"
+
+[node name="@Label@7" type="Label" parent="." unique_id=2142099817]
+offset_top = 400.0
+offset_bottom = 400.0
+theme_override_font_sizes/font_size = 10
+text = "森林 · 草地单向平台 | Forest / Grass Platforms"
+
+[node name="@Label@8" type="Label" parent="." unique_id=732302441]
+offset_top = 464.0
+offset_bottom = 464.0
+theme_override_font_sizes/font_size = 10
+text = "森林 · 沙地单向平台 | Forest / Sand Platforms"
+
+[node name="@Label@9" type="Label" parent="." unique_id=2043090556]
+offset_top = 528.0
+offset_bottom = 528.0
+theme_override_font_sizes/font_size = 10
+text = "森林 · 雪地单向平台 | Forest / Snow Platforms"
+
+[node name="@Label@10" type="Label" parent="." unique_id=227684572]
+offset_top = 592.0
+offset_bottom = 592.0
+theme_override_font_sizes/font_size = 10
+text = "森林 · 岩石单向平台 | Forest / Stone Platforms"
+
+[node name="@Label@11" type="Label" parent="." unique_id=2013750513]
+offset_top = 656.0
+offset_bottom = 656.0
+theme_override_font_sizes/font_size = 10
+text = "森林 · 场景道具 | Forest / Props"
+
+[node name="@Label@12" type="Label" parent="." unique_id=485514397]
+offset_top = 720.0
+offset_bottom = 720.0
+theme_override_font_sizes/font_size = 10
+text = "森林 · 草地实体地形 | Forest / Grass Terrain"
+
+[node name="@Label@13" type="Label" parent="." unique_id=356374364]
+offset_top = 784.0
+offset_bottom = 784.0
+theme_override_font_sizes/font_size = 10
+text = "森林 · 沙地实体地形 | Forest / Sand Terrain"
+
+[node name="@Label@14" type="Label" parent="." unique_id=633482121]
+offset_top = 848.0
+offset_bottom = 848.0
+theme_override_font_sizes/font_size = 10
+text = "森林 · 雪地实体地形 | Forest / Snow Terrain"
+
+[node name="@Label@15" type="Label" parent="." unique_id=30469347]
+offset_top = 912.0
+offset_bottom = 912.0
+theme_override_font_sizes/font_size = 10
+text = "森林 · 岩石实体地形 | Forest / Stone Terrain"
+
+[node name="@Label@16" type="Label" parent="." unique_id=1555916399]
+offset_top = 976.0
+offset_bottom = 976.0
+theme_override_font_sizes/font_size = 10
+text = "森林 · 树木 | Forest / Trees"
+
+[node name="@Label@17" type="Label" parent="." unique_id=1273018339]
+offset_top = 1072.0
+offset_bottom = 1072.0
+theme_override_font_sizes/font_size = 10
+text = "洞穴与遗迹 · 背景墙 | Vol. 2 / Background Walls"
+
+[node name="@Label@18" type="Label" parent="." unique_id=632627102]
+offset_top = 1136.0
+offset_bottom = 1136.0
+theme_override_font_sizes/font_size = 10
+text = "洞穴与遗迹 · 洞穴装饰 | Vol. 2 / Cave Decor"
+
+[node name="@Label@19" type="Label" parent="." unique_id=1899165492]
+offset_top = 1200.0
+offset_bottom = 1200.0
+theme_override_font_sizes/font_size = 10
+text = "洞穴与遗迹 · 攀爬组件 | Vol. 2 / Climbing Parts"
+
+[node name="@Label@20" type="Label" parent="." unique_id=160432594]
+offset_top = 1264.0
+offset_bottom = 1264.0
+theme_override_font_sizes/font_size = 10
+text = "洞穴与遗迹 · 收集物 | Vol. 2 / Collectibles"
+
+[node name="@Label@21" type="Label" parent="." unique_id=1951150745]
+offset_top = 1328.0
+offset_bottom = 1328.0
+theme_override_font_sizes/font_size = 10
+text = "洞穴与遗迹 · 门与出口 | Vol. 2 / Doors and Exits"
+
+[node name="@Label@22" type="Label" parent="." unique_id=1886192722]
+offset_top = 1408.0
+offset_bottom = 1408.0
+theme_override_font_sizes/font_size = 10
+text = "洞穴与遗迹 · 机关状态 | Vol. 2 / Gadget States"
+
+[node name="@Label@23" type="Label" parent="." unique_id=1976764991]
+offset_top = 1472.0
+offset_bottom = 1472.0
+theme_override_font_sizes/font_size = 10
+text = "洞穴与遗迹 · 危险物 | Vol. 2 / Hazards"
+
+[node name="@Label@24" type="Label" parent="." unique_id=676386438]
+offset_top = 1536.0
+offset_bottom = 1536.0
+theme_override_font_sizes/font_size = 10
+text = "洞穴与遗迹 · 火山装饰 | Vol. 2 / Lava Decor"
+
+[node name="@Label@25" type="Label" parent="." unique_id=1379761163]
+offset_top = 1600.0
+offset_bottom = 1600.0
+theme_override_font_sizes/font_size = 10
+text = "洞穴与遗迹 · 液体 | Vol. 2 / Liquids"
+
+[node name="@Label@26" type="Label" parent="." unique_id=318032859]
+offset_top = 1664.0
+offset_bottom = 1664.0
+theme_override_font_sizes/font_size = 10
+text = "洞穴与遗迹 · 移动平台组件 | Vol. 2 / Moving Platform Parts"
+
+[node name="@Label@27" type="Label" parent="." unique_id=975318973]
+offset_top = 1728.0
+offset_bottom = 1728.0
+theme_override_font_sizes/font_size = 10
+text = "洞穴与遗迹 · 洞穴单向平台 | Vol. 2 / Cave Platforms"
+
+[node name="@Label@28" type="Label" parent="." unique_id=641577834]
+offset_top = 1792.0
+offset_bottom = 1792.0
+theme_override_font_sizes/font_size = 10
+text = "洞穴与遗迹 · 火山单向平台 | Vol. 2 / Lava Platforms"
+
+[node name="@Label@29" type="Label" parent="." unique_id=2037344742]
+offset_top = 1856.0
+offset_bottom = 1856.0
+theme_override_font_sizes/font_size = 10
+text = "洞穴与遗迹 · 遗迹单向平台 | Vol. 2 / Ruins Platforms"
+
+[node name="@Label@30" type="Label" parent="." unique_id=1102264396]
+offset_top = 1920.0
+offset_bottom = 1920.0
+theme_override_font_sizes/font_size = 10
+text = "洞穴与遗迹 · 天空单向平台 | Vol. 2 / Sky Platforms"
+
+[node name="@Label@31" type="Label" parent="." unique_id=1438247990]
+offset_top = 1984.0
+offset_bottom = 1984.0
+theme_override_font_sizes/font_size = 10
+text = "洞穴与遗迹 · 遗迹装饰 | Vol. 2 / Ruins Decor"
+
+[node name="@Label@32" type="Label" parent="." unique_id=577459177]
+offset_top = 2048.0
+offset_bottom = 2048.0
+theme_override_font_sizes/font_size = 10
+text = "洞穴与遗迹 · 天空装饰 | Vol. 2 / Sky Decor"
+
+[node name="@Label@33" type="Label" parent="." unique_id=299419549]
+offset_top = 2128.0
+offset_bottom = 2128.0
+theme_override_font_sizes/font_size = 10
+text = "洞穴与遗迹 · 洞穴实体地形 | Vol. 2 / Cave Terrain"
+
+[node name="@Label@34" type="Label" parent="." unique_id=1161390576]
+offset_top = 2192.0
+offset_bottom = 2192.0
+theme_override_font_sizes/font_size = 10
+text = "洞穴与遗迹 · 火山实体地形 | Vol. 2 / Lava Terrain"
+
+[node name="@Label@35" type="Label" parent="." unique_id=1168417788]
+offset_top = 2256.0
+offset_bottom = 2256.0
+theme_override_font_sizes/font_size = 10
+text = "洞穴与遗迹 · 遗迹实体地形 | Vol. 2 / Ruins Terrain"
+
+[node name="@Label@36" type="Label" parent="." unique_id=594582176]
+offset_top = 2320.0
+offset_bottom = 2320.0
+theme_override_font_sizes/font_size = 10
+text = "洞穴与遗迹 · 天空实体地形 | Vol. 2 / Sky Terrain"
+
+[node name="@Label@37" type="Label" parent="." unique_id=1508827309]
+offset_top = 2384.0
+offset_bottom = 2384.0
+theme_override_font_sizes/font_size = 10
+text = "城堡与沼泽 · 背景墙 | Vol. 3 / Background Walls"
+
+[node name="@Label@38" type="Label" parent="." unique_id=1411264695]
+offset_top = 2448.0
+offset_bottom = 2448.0
+theme_override_font_sizes/font_size = 10
+text = "城堡与沼泽 · 城堡装饰 | Vol. 3 / Castle Decor"
+
+[node name="@Label@39" type="Label" parent="." unique_id=844269861]
+offset_top = 2512.0
+offset_bottom = 2512.0
+theme_override_font_sizes/font_size = 10
+text = "城堡与沼泽 · 攀爬组件 | Vol. 3 / Climbing Parts"
+
+[node name="@Label@40" type="Label" parent="." unique_id=1076128378]
+offset_top = 2576.0
+offset_bottom = 2576.0
+theme_override_font_sizes/font_size = 10
+text = "城堡与沼泽 · 收集物 | Vol. 3 / Collectibles"
+
+[node name="@Label@41" type="Label" parent="." unique_id=722293109]
+offset_top = 2640.0
+offset_bottom = 2640.0
+theme_override_font_sizes/font_size = 10
+text = "城堡与沼泽 · 沙漠装饰 | Vol. 3 / Desert Decor"
+
+[node name="@Label@42" type="Label" parent="." unique_id=907001670]
+offset_top = 2704.0
+offset_bottom = 2704.0
+theme_override_font_sizes/font_size = 10
+text = "城堡与沼泽 · 门与出口 | Vol. 3 / Doors and Exits"
+
+[node name="@Label@43" type="Label" parent="." unique_id=8185959]
+offset_top = 2784.0
+offset_bottom = 2784.0
+theme_override_font_sizes/font_size = 10
+text = "城堡与沼泽 · 机关状态 | Vol. 3 / Gadget States"
+
+[node name="@Label@44" type="Label" parent="." unique_id=267777744]
+offset_top = 2848.0
+offset_bottom = 2848.0
+theme_override_font_sizes/font_size = 10
+text = "城堡与沼泽 · 危险物 | Vol. 3 / Hazards"
+
+[node name="@Label@45" type="Label" parent="." unique_id=1874400480]
+offset_top = 2912.0
+offset_bottom = 2912.0
+theme_override_font_sizes/font_size = 10
+text = "城堡与沼泽 · 冰雪装饰 | Vol. 3 / Ice Decor"
+
+[node name="@Label@46" type="Label" parent="." unique_id=168508225]
+offset_top = 2976.0
+offset_bottom = 2976.0
+theme_override_font_sizes/font_size = 10
+text = "城堡与沼泽 · 液体 | Vol. 3 / Liquids"
+
+[node name="@Label@47" type="Label" parent="." unique_id=670255320]
+offset_top = 3040.0
+offset_bottom = 3040.0
+theme_override_font_sizes/font_size = 10
+text = "城堡与沼泽 · 移动平台组件 | Vol. 3 / Moving Platform Parts"
+
+[node name="@Label@48" type="Label" parent="." unique_id=305348844]
+offset_top = 3104.0
+offset_bottom = 3104.0
+theme_override_font_sizes/font_size = 10
+text = "城堡与沼泽 · 城堡单向平台 | Vol. 3 / Castle Platforms"
+
+[node name="@Label@49" type="Label" parent="." unique_id=1135569620]
+offset_top = 3168.0
+offset_bottom = 3168.0
+theme_override_font_sizes/font_size = 10
+text = "城堡与沼泽 · 沙漠单向平台 | Vol. 3 / Desert Platforms"
+
+[node name="@Label@50" type="Label" parent="." unique_id=719494487]
+offset_top = 3232.0
+offset_bottom = 3232.0
+theme_override_font_sizes/font_size = 10
+text = "城堡与沼泽 · 冰地单向平台 | Vol. 3 / Ice Platforms"
+
+[node name="@Label@51" type="Label" parent="." unique_id=1886023767]
+offset_top = 3296.0
+offset_bottom = 3296.0
+theme_override_font_sizes/font_size = 10
+text = "城堡与沼泽 · 沼泽单向平台 | Vol. 3 / Swamp Platforms"
+
+[node name="@Label@52" type="Label" parent="." unique_id=1875631937]
+offset_top = 3360.0
+offset_bottom = 3360.0
+theme_override_font_sizes/font_size = 10
+text = "城堡与沼泽 · 沼泽装饰 | Vol. 3 / Swamp Decor"
+
+[node name="@Label@53" type="Label" parent="." unique_id=552380494]
+offset_top = 3424.0
+offset_bottom = 3424.0
+theme_override_font_sizes/font_size = 10
+text = "城堡与沼泽 · 城堡实体地形 | Vol. 3 / Castle Terrain"
+
+[node name="@Label@54" type="Label" parent="." unique_id=1617282022]
+offset_top = 3488.0
+offset_bottom = 3488.0
+theme_override_font_sizes/font_size = 10
+text = "城堡与沼泽 · 沙漠实体地形 | Vol. 3 / Desert Terrain"
+
+[node name="@Label@55" type="Label" parent="." unique_id=457876081]
+offset_top = 3552.0
+offset_bottom = 3552.0
+theme_override_font_sizes/font_size = 10
+text = "城堡与沼泽 · 冰地实体地形 | Vol. 3 / Ice Terrain"
+
+[node name="@Label@56" type="Label" parent="." unique_id=136183723]
+offset_top = 3616.0
+offset_bottom = 3616.0
+theme_override_font_sizes/font_size = 10
+text = "城堡与沼泽 · 沼泽实体地形 | Vol. 3 / Swamp Terrain"

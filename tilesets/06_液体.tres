@@ -1,0 +1,107 @@
+[gd_resource type="TileSet" format=3 uid="uid://cfyhiu21md7jt"]
+
+[ext_resource type="Texture2D" uid="uid://cmtnqypswixas" path="res://assets/atlases/vol2_liquid.png" id="1_1w0pa"]
+[ext_resource type="Texture2D" uid="uid://c54jxsoq6mi4v" path="res://assets/atlases/vol3_liquid.png" id="2_6k53b"]
+[ext_resource type="Texture2D" uid="uid://bsg8sd5uy6sha" path="res://assets/atlases/animated_vol2_lava_surface.png" id="3_c8n2s"]
+[ext_resource type="Texture2D" uid="uid://cwdcfynlseqjb" path="res://assets/atlases/animated_vol3_swamp_surface.png" id="4_qc36k"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_c8n2s"]
+resource_name = "洞穴与遗迹 · 液体 | Vol. 2 / Liquids"
+texture = ExtResource("1_1w0pa")
+0:0/0 = 0
+0:0/0/custom_data_0 = "vol2/liquid/lava_fill"
+0:0/0/custom_data_1 = "lava_fill"
+0:0/0/custom_data_2 = "liquid"
+0:0/0/custom_data_3 = "liquid"
+0:0/0/custom_data_4 = "vol2"
+1:0/0 = 0
+1:0/0/custom_data_0 = "vol2/liquid/lava_top_a"
+1:0/0/custom_data_1 = "lava_top_a"
+1:0/0/custom_data_2 = "liquid"
+1:0/0/custom_data_3 = "liquid"
+1:0/0/custom_data_4 = "vol2"
+2:0/0 = 0
+2:0/0/custom_data_0 = "vol2/liquid/lava_top_b"
+2:0/0/custom_data_1 = "lava_top_b"
+2:0/0/custom_data_2 = "liquid"
+2:0/0/custom_data_3 = "liquid"
+2:0/0/custom_data_4 = "vol2"
+3:0/0 = 0
+3:0/0/custom_data_0 = "vol2/liquid/lavafall"
+3:0/0/custom_data_1 = "lavafall"
+3:0/0/custom_data_2 = "liquid"
+3:0/0/custom_data_3 = "liquid"
+3:0/0/custom_data_4 = "vol2"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_qc36k"]
+resource_name = "城堡与沼泽 · 液体 | Vol. 3 / Liquids"
+texture = ExtResource("2_6k53b")
+0:0/0 = 0
+0:0/0/custom_data_0 = "vol3/liquid/swamp_fill"
+0:0/0/custom_data_1 = "swamp_fill"
+0:0/0/custom_data_2 = "liquid"
+0:0/0/custom_data_3 = "liquid"
+0:0/0/custom_data_4 = "vol3"
+1:0/0 = 0
+1:0/0/custom_data_0 = "vol3/liquid/swamp_top_a"
+1:0/0/custom_data_1 = "swamp_top_a"
+1:0/0/custom_data_2 = "liquid"
+1:0/0/custom_data_3 = "liquid"
+1:0/0/custom_data_4 = "vol3"
+2:0/0 = 0
+2:0/0/custom_data_0 = "vol3/liquid/swamp_top_b"
+2:0/0/custom_data_1 = "swamp_top_b"
+2:0/0/custom_data_2 = "liquid"
+2:0/0/custom_data_3 = "liquid"
+2:0/0/custom_data_4 = "vol3"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ay8w5"]
+resource_name = "动画 / vol2 / lava_surface"
+texture = ExtResource("3_c8n2s")
+0:0/animation_columns = 2
+0:0/animation_speed = 3.333333
+0:0/animation_frame_0/duration = 1.0
+0:0/animation_frame_1/duration = 1.0
+0:0/0 = 0
+0:0/0/custom_data_0 = "vol2/animated/lava_surface"
+0:0/0/custom_data_1 = "lava_surface"
+0:0/0/custom_data_2 = "liquid"
+0:0/0/custom_data_3 = "liquid"
+0:0/0/custom_data_4 = "vol2"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_is13t"]
+resource_name = "动画 / vol3 / swamp_surface"
+texture = ExtResource("4_qc36k")
+0:0/animation_columns = 2
+0:0/animation_speed = 3.333333
+0:0/animation_frame_0/duration = 1.0
+0:0/animation_frame_1/duration = 1.0
+0:0/0 = 0
+0:0/0/custom_data_0 = "vol3/animated/swamp_surface"
+0:0/0/custom_data_1 = "swamp_surface"
+0:0/0/custom_data_2 = "liquid"
+0:0/0/custom_data_3 = "liquid"
+0:0/0/custom_data_4 = "vol3"
+
+[resource]
+resource_name = "06_液体"
+physics_layer_0/collision_layer = 1
+physics_layer_0/collision_mask = 4
+physics_layer_1/collision_layer = 2
+physics_layer_1/collision_mask = 4
+physics_layer_2/collision_layer = 8
+physics_layer_2/collision_mask = 4
+custom_data_layer_0/name = "asset_key"
+custom_data_layer_0/type = 4
+custom_data_layer_1/name = "display_name"
+custom_data_layer_1/type = 4
+custom_data_layer_2/name = "category"
+custom_data_layer_2/type = 4
+custom_data_layer_3/name = "behavior"
+custom_data_layer_3/type = 4
+custom_data_layer_4/name = "pack"
+custom_data_layer_4/type = 4
+sources/23 = SubResource("TileSetAtlasSource_c8n2s")
+sources/44 = SubResource("TileSetAtlasSource_qc36k")
+sources/61 = SubResource("TileSetAtlasSource_ay8w5")
+sources/62 = SubResource("TileSetAtlasSource_is13t")

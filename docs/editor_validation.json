@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "editor": "Godot 4.7.2",
+  "mcp_plugin": "Godot AI 4.3.0",
+  "current_scene": "res://scenes/levels/whitebox_template.tscn",
+  "selected_layer": "20_Solid_实体地形",
+  "checks": [
+    "terrain palette selection",
+    "one-way palette selection",
+    "background palette selection",
+    "place tile",
+    "erase tile",
+    "save scene",
+    "query atlas tiles",
+    "editor log clean",
+    "shared external TileSet resources"
+  ],
+  "plugin_local_modifications": false
+}

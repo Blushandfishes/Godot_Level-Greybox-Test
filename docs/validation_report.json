@@ -1,0 +1,200 @@
+{
+	"assertions": 27695,
+	"errors": [],
+	"generated_at_utc": "2026-10-23T13:43:01Z",
+	"godot_version": "4.7.2-stable (official)",
+	"passed": true,
+	"resources": {
+		"animated_tiles": 8,
+		"indexed_tiles": 395,
+		"multi_cell_tiles": 12,
+		"original_unique_keys": 387,
+		"tilesets": {
+			"all": {
+				"animated_tiles": 8,
+				"atlas_sources": 63,
+				"collision_polygons": 215,
+				"pattern_cells": 324,
+				"patterns": 24,
+				"terrain_themes": 12,
+				"tiles": 395
+			},
+			"background": {
+				"animated_tiles": 0,
+				"atlas_sources": 19,
+				"collision_polygons": 0,
+				"pattern_cells": 288,
+				"patterns": 12,
+				"terrain_themes": 12,
+				"tiles": 185
+			},
+			"climb": {
+				"animated_tiles": 0,
+				"atlas_sources": 3,
+				"collision_polygons": 0,
+				"pattern_cells": 0,
+				"patterns": 0,
+				"terrain_themes": 0,
+				"tiles": 10
+			},
+			"decoration": {
+				"animated_tiles": 0,
+				"atlas_sources": 17,
+				"collision_polygons": 0,
+				"pattern_cells": 0,
+				"patterns": 0,
+				"terrain_themes": 0,
+				"tiles": 107
+			},
+			"hazards": {
+				"animated_tiles": 0,
+				"atlas_sources": 3,
+				"collision_polygons": 15,
+				"pattern_cells": 0,
+				"patterns": 0,
+				"terrain_themes": 0,
+				"tiles": 15
+			},
+			"interactables": {
+				"animated_tiles": 6,
+				"atlas_sources": 14,
+				"collision_polygons": 0,
+				"pattern_cells": 0,
+				"patterns": 0,
+				"terrain_themes": 0,
+				"tiles": 54
+			},
+			"liquids": {
+				"animated_tiles": 2,
+				"atlas_sources": 4,
+				"collision_polygons": 0,
+				"pattern_cells": 0,
+				"patterns": 0,
+				"terrain_themes": 0,
+				"tiles": 9
+			},
+			"platforms": {
+				"animated_tiles": 0,
+				"atlas_sources": 15,
+				"collision_polygons": 49,
+				"pattern_cells": 36,
+				"patterns": 12,
+				"terrain_themes": 0,
+				"tiles": 49
+			},
+			"terrain": {
+				"animated_tiles": 0,
+				"atlas_sources": 16,
+				"collision_polygons": 151,
+				"pattern_cells": 288,
+				"patterns": 12,
+				"terrain_themes": 12,
+				"tiles": 151
+			}
+		}
+	},
+	"runtime": {
+		"climb": {
+			"feet_y": 257.599853515625,
+			"passed": true,
+			"state": "climb"
+		},
+		"hazard_respawn": {
+			"feet": [
+				56.0,
+				288.0
+			],
+			"passed": true,
+			"spawn": [
+				56.0,
+				288.0
+			]
+		},
+		"jump": {
+			"passed": true,
+			"vertical_velocity": -233.333343505859
+		},
+		"liquid": {
+			"passed": true,
+			"state": "liquid"
+		},
+		"main_scene_landing": {
+			"feet": [
+				56.0,
+				288.0
+			],
+			"on_floor": true,
+			"passed": true
+		},
+		"movement": {
+			"passed": true,
+			"run_speed": 110.0
+		},
+		"one_way": {
+			"dropped_downward": true,
+			"passed_upward": true,
+			"platform_top_y": 256.0,
+			"restored_mask": true,
+			"stood_on_top": true
+		},
+		"template_landing": {
+			"feet": [
+				56.0,
+				160.0
+			],
+			"passed": true
+		}
+	},
+	"scenes": {
+		"res://scenes/actors/test_player.tscn": {
+			"external_tileset_bindings": {},
+			"instantiated": true,
+			"loaded": true,
+			"ran_in_tree": true,
+			"tilemap_layers": 0
+		},
+		"res://scenes/levels/whitebox_template.tscn": {
+			"external_tileset_bindings": {
+				"00_Background_背景墙": "res://tilesets/03_背景墙.tres",
+				"10_BackDecor_后景装饰": "res://tilesets/04_装饰.tres",
+				"20_Solid_实体地形": "res://tilesets/01_实体地形.tres",
+				"30_OneWay_单向平台": "res://tilesets/02_单向平台.tres",
+				"40_Climb_梯子藤蔓": "res://tilesets/05_攀爬.tres",
+				"50_Liquids_液体": "res://tilesets/06_液体.tres",
+				"60_Hazards_危险物": "res://tilesets/07_危险物.tres",
+				"70_Interactables_交互标记": "res://tilesets/08_交互标记.tres",
+				"80_Foreground_前景装饰": "res://tilesets/04_装饰.tres"
+			},
+			"instantiated": true,
+			"loaded": true,
+			"ran_in_tree": true,
+			"tilemap_layers": 9
+		},
+		"res://scenes/levels/whitebox_test.tscn": {
+			"external_tileset_bindings": {
+				"00_Background_背景墙": "res://tilesets/03_背景墙.tres",
+				"10_BackDecor_后景装饰": "res://tilesets/04_装饰.tres",
+				"20_Solid_实体地形": "res://tilesets/01_实体地形.tres",
+				"30_OneWay_单向平台": "res://tilesets/02_单向平台.tres",
+				"40_Climb_梯子藤蔓": "res://tilesets/05_攀爬.tres",
+				"50_Liquids_液体": "res://tilesets/06_液体.tres",
+				"60_Hazards_危险物": "res://tilesets/07_危险物.tres",
+				"70_Interactables_交互标记": "res://tilesets/08_交互标记.tres",
+				"80_Foreground_前景装饰": "res://tilesets/04_装饰.tres"
+			},
+			"instantiated": true,
+			"loaded": true,
+			"ran_in_tree": true,
+			"tilemap_layers": 9
+		},
+		"res://scenes/reference/asset_catalog.tscn": {
+			"external_tileset_bindings": {
+				"Catalog_全部素材": "res://tilesets/00_全部素材.tres"
+			},
+			"instantiated": true,
+			"loaded": true,
+			"ran_in_tree": true,
+			"tilemap_layers": 1
+		}
+	}
+}

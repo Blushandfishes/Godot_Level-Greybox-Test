@@ -1,0 +1,1060 @@
+{
+ "meta": {
+  "name": "Pixel Platformer Tileset Vol. 3",
+  "tile_size": 16,
+  "image": "spritesheet.png",
+  "count": 151
+ },
+ "frames": {
+  "door_closed": {
+   "x": 0,
+   "y": 0,
+   "w": 32,
+   "h": 32,
+   "category": "doors"
+  },
+  "door_open": {
+   "x": 32,
+   "y": 0,
+   "w": 32,
+   "h": 32,
+   "category": "doors"
+  },
+  "door_locked": {
+   "x": 64,
+   "y": 0,
+   "w": 32,
+   "h": 32,
+   "category": "doors"
+  },
+  "castle_tl": {
+   "x": 96,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "castle_top": {
+   "x": 112,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "castle_tr": {
+   "x": 128,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "castle_left": {
+   "x": 144,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "castle_center": {
+   "x": 160,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "castle_right": {
+   "x": 176,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "castle_bl": {
+   "x": 192,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "castle_bottom": {
+   "x": 208,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "castle_br": {
+   "x": 224,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "castle_plat_left": {
+   "x": 240,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "category": "platforms"
+  },
+  "castle_plat_mid": {
+   "x": 256,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "category": "platforms"
+  },
+  "castle_plat_right": {
+   "x": 272,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "category": "platforms"
+  },
+  "castle_fill_b": {
+   "x": 288,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "castle_block": {
+   "x": 304,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "swamp_tl": {
+   "x": 320,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "swamp_top": {
+   "x": 336,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "swamp_tr": {
+   "x": 352,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "swamp_left": {
+   "x": 368,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "swamp_center": {
+   "x": 384,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "swamp_right": {
+   "x": 400,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "swamp_bl": {
+   "x": 416,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "swamp_bottom": {
+   "x": 432,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "swamp_br": {
+   "x": 448,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "swamp_plat_left": {
+   "x": 464,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "category": "platforms"
+  },
+  "swamp_plat_mid": {
+   "x": 480,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "category": "platforms"
+  },
+  "swamp_plat_right": {
+   "x": 496,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "category": "platforms"
+  },
+  "swamp_fill_b": {
+   "x": 0,
+   "y": 32,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "swamp_block": {
+   "x": 16,
+   "y": 32,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "ice_tl": {
+   "x": 32,
+   "y": 32,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "ice_top": {
+   "x": 48,
+   "y": 32,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "ice_tr": {
+   "x": 64,
+   "y": 32,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "ice_left": {
+   "x": 80,
+   "y": 32,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "ice_center": {
+   "x": 96,
+   "y": 32,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "ice_right": {
+   "x": 112,
+   "y": 32,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "ice_bl": {
+   "x": 128,
+   "y": 32,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "ice_bottom": {
+   "x": 144,
+   "y": 32,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "ice_br": {
+   "x": 160,
+   "y": 32,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "ice_plat_left": {
+   "x": 176,
+   "y": 32,
+   "w": 16,
+   "h": 16,
+   "category": "platforms"
+  },
+  "ice_plat_mid": {
+   "x": 192,
+   "y": 32,
+   "w": 16,
+   "h": 16,
+   "category": "platforms"
+  },
+  "ice_plat_right": {
+   "x": 208,
+   "y": 32,
+   "w": 16,
+   "h": 16,
+   "category": "platforms"
+  },
+  "ice_fill_b": {
+   "x": 224,
+   "y": 32,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "ice_block": {
+   "x": 208,
+   "y": 80,
+   "w": 16,
+   "h": 16,
+   "category": "ice"
+  },
+  "desert_tl": {
+   "x": 256,
+   "y": 32,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "desert_top": {
+   "x": 272,
+   "y": 32,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "desert_tr": {
+   "x": 288,
+   "y": 32,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "desert_left": {
+   "x": 304,
+   "y": 32,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "desert_center": {
+   "x": 320,
+   "y": 32,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "desert_right": {
+   "x": 336,
+   "y": 32,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "desert_bl": {
+   "x": 352,
+   "y": 32,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "desert_bottom": {
+   "x": 368,
+   "y": 32,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "desert_br": {
+   "x": 384,
+   "y": 32,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "desert_plat_left": {
+   "x": 400,
+   "y": 32,
+   "w": 16,
+   "h": 16,
+   "category": "platforms"
+  },
+  "desert_plat_mid": {
+   "x": 416,
+   "y": 32,
+   "w": 16,
+   "h": 16,
+   "category": "platforms"
+  },
+  "desert_plat_right": {
+   "x": 432,
+   "y": 32,
+   "w": 16,
+   "h": 16,
+   "category": "platforms"
+  },
+  "desert_fill_b": {
+   "x": 448,
+   "y": 32,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "desert_block": {
+   "x": 464,
+   "y": 32,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "castle_wall_bg": {
+   "x": 480,
+   "y": 32,
+   "w": 16,
+   "h": 16,
+   "category": "background"
+  },
+  "swamp_bg": {
+   "x": 496,
+   "y": 32,
+   "w": 16,
+   "h": 16,
+   "category": "background"
+  },
+  "swamp_top_a": {
+   "x": 0,
+   "y": 48,
+   "w": 16,
+   "h": 16,
+   "category": "liquid"
+  },
+  "swamp_top_b": {
+   "x": 16,
+   "y": 48,
+   "w": 16,
+   "h": 16,
+   "category": "liquid"
+  },
+  "swamp_fill": {
+   "x": 32,
+   "y": 48,
+   "w": 16,
+   "h": 16,
+   "category": "liquid"
+  },
+  "spikes_up": {
+   "x": 48,
+   "y": 48,
+   "w": 16,
+   "h": 16,
+   "category": "hazards"
+  },
+  "spikes_down": {
+   "x": 64,
+   "y": 48,
+   "w": 16,
+   "h": 16,
+   "category": "hazards"
+  },
+  "spikes_left": {
+   "x": 80,
+   "y": 48,
+   "w": 16,
+   "h": 16,
+   "category": "hazards"
+  },
+  "spikes_right": {
+   "x": 96,
+   "y": 48,
+   "w": 16,
+   "h": 16,
+   "category": "hazards"
+  },
+  "saw_blade": {
+   "x": 112,
+   "y": 48,
+   "w": 16,
+   "h": 16,
+   "category": "hazards"
+  },
+  "fireball": {
+   "x": 128,
+   "y": 48,
+   "w": 16,
+   "h": 16,
+   "category": "hazards"
+  },
+  "falling_stalactite": {
+   "x": 144,
+   "y": 48,
+   "w": 16,
+   "h": 16,
+   "category": "hazards"
+  },
+  "spring_idle": {
+   "x": 160,
+   "y": 48,
+   "w": 16,
+   "h": 16,
+   "category": "gadgets"
+  },
+  "spring_extended": {
+   "x": 176,
+   "y": 48,
+   "w": 16,
+   "h": 16,
+   "category": "gadgets"
+  },
+  "lever_off": {
+   "x": 192,
+   "y": 48,
+   "w": 16,
+   "h": 16,
+   "category": "gadgets"
+  },
+  "lever_on": {
+   "x": 208,
+   "y": 48,
+   "w": 16,
+   "h": 16,
+   "category": "gadgets"
+  },
+  "button_up": {
+   "x": 224,
+   "y": 48,
+   "w": 16,
+   "h": 16,
+   "category": "gadgets"
+  },
+  "button_pressed": {
+   "x": 240,
+   "y": 48,
+   "w": 16,
+   "h": 16,
+   "category": "gadgets"
+  },
+  "checkpoint_off": {
+   "x": 256,
+   "y": 48,
+   "w": 16,
+   "h": 16,
+   "category": "gadgets"
+  },
+  "checkpoint_on": {
+   "x": 272,
+   "y": 48,
+   "w": 16,
+   "h": 16,
+   "category": "gadgets"
+  },
+  "question_block": {
+   "x": 288,
+   "y": 48,
+   "w": 16,
+   "h": 16,
+   "category": "gadgets"
+  },
+  "used_block": {
+   "x": 304,
+   "y": 48,
+   "w": 16,
+   "h": 16,
+   "category": "gadgets"
+  },
+  "crumbling_block": {
+   "x": 320,
+   "y": 48,
+   "w": 16,
+   "h": 16,
+   "category": "gadgets"
+  },
+  "metal_crate": {
+   "x": 336,
+   "y": 48,
+   "w": 16,
+   "h": 16,
+   "category": "gadgets"
+  },
+  "metal_left": {
+   "x": 352,
+   "y": 48,
+   "w": 16,
+   "h": 16,
+   "category": "moving_platform"
+  },
+  "cloud_left": {
+   "x": 368,
+   "y": 48,
+   "w": 16,
+   "h": 16,
+   "category": "moving_platform"
+  },
+  "metal_mid": {
+   "x": 384,
+   "y": 48,
+   "w": 16,
+   "h": 16,
+   "category": "moving_platform"
+  },
+  "cloud_mid": {
+   "x": 400,
+   "y": 48,
+   "w": 16,
+   "h": 16,
+   "category": "moving_platform"
+  },
+  "metal_right": {
+   "x": 416,
+   "y": 48,
+   "w": 16,
+   "h": 16,
+   "category": "moving_platform"
+  },
+  "cloud_right": {
+   "x": 432,
+   "y": 48,
+   "w": 16,
+   "h": 16,
+   "category": "moving_platform"
+  },
+  "chain": {
+   "x": 448,
+   "y": 48,
+   "w": 16,
+   "h": 16,
+   "category": "moving_platform"
+  },
+  "coin_spin_0": {
+   "x": 464,
+   "y": 48,
+   "w": 16,
+   "h": 16,
+   "category": "collectibles"
+  },
+  "coin_spin_1": {
+   "x": 480,
+   "y": 48,
+   "w": 16,
+   "h": 16,
+   "category": "collectibles"
+  },
+  "coin_spin_2": {
+   "x": 496,
+   "y": 48,
+   "w": 16,
+   "h": 16,
+   "category": "collectibles"
+  },
+  "coin_spin_3": {
+   "x": 0,
+   "y": 64,
+   "w": 16,
+   "h": 16,
+   "category": "collectibles"
+  },
+  "gem_red": {
+   "x": 16,
+   "y": 64,
+   "w": 16,
+   "h": 16,
+   "category": "collectibles"
+  },
+  "gem_green": {
+   "x": 32,
+   "y": 64,
+   "w": 16,
+   "h": 16,
+   "category": "collectibles"
+  },
+  "key_gold": {
+   "x": 48,
+   "y": 64,
+   "w": 16,
+   "h": 16,
+   "category": "collectibles"
+  },
+  "star": {
+   "x": 64,
+   "y": 64,
+   "w": 16,
+   "h": 16,
+   "category": "collectibles"
+  },
+  "heart": {
+   "x": 80,
+   "y": 64,
+   "w": 16,
+   "h": 16,
+   "category": "collectibles"
+  },
+  "ladder_top": {
+   "x": 96,
+   "y": 64,
+   "w": 16,
+   "h": 16,
+   "category": "climb"
+  },
+  "ladder_mid": {
+   "x": 112,
+   "y": 64,
+   "w": 16,
+   "h": 16,
+   "category": "climb"
+  },
+  "rope": {
+   "x": 128,
+   "y": 64,
+   "w": 16,
+   "h": 16,
+   "category": "climb"
+  },
+  "vine_hanging": {
+   "x": 144,
+   "y": 64,
+   "w": 16,
+   "h": 16,
+   "category": "climb"
+  },
+  "exit_sign": {
+   "x": 160,
+   "y": 64,
+   "w": 16,
+   "h": 16,
+   "category": "doors"
+  },
+  "battlement": {
+   "x": 176,
+   "y": 64,
+   "w": 16,
+   "h": 16,
+   "category": "castle"
+  },
+  "arrow_slit": {
+   "x": 192,
+   "y": 64,
+   "w": 16,
+   "h": 16,
+   "category": "castle"
+  },
+  "banner_red": {
+   "x": 208,
+   "y": 64,
+   "w": 16,
+   "h": 16,
+   "category": "castle"
+  },
+  "banner_blue": {
+   "x": 224,
+   "y": 64,
+   "w": 16,
+   "h": 16,
+   "category": "castle"
+  },
+  "torch_stand": {
+   "x": 240,
+   "y": 64,
+   "w": 16,
+   "h": 16,
+   "category": "castle"
+  },
+  "chandelier": {
+   "x": 256,
+   "y": 64,
+   "w": 16,
+   "h": 16,
+   "category": "castle"
+  },
+  "suit_of_armor": {
+   "x": 272,
+   "y": 64,
+   "w": 16,
+   "h": 16,
+   "category": "castle"
+  },
+  "throne": {
+   "x": 288,
+   "y": 64,
+   "w": 16,
+   "h": 16,
+   "category": "castle"
+  },
+  "cannon": {
+   "x": 304,
+   "y": 64,
+   "w": 16,
+   "h": 16,
+   "category": "castle"
+  },
+  "cannonball": {
+   "x": 320,
+   "y": 64,
+   "w": 16,
+   "h": 16,
+   "category": "castle"
+  },
+  "portcullis": {
+   "x": 336,
+   "y": 64,
+   "w": 16,
+   "h": 16,
+   "category": "castle"
+  },
+  "treasure_chest": {
+   "x": 352,
+   "y": 64,
+   "w": 16,
+   "h": 16,
+   "category": "castle"
+  },
+  "candle": {
+   "x": 368,
+   "y": 64,
+   "w": 16,
+   "h": 16,
+   "category": "castle"
+  },
+  "skeleton_guard": {
+   "x": 384,
+   "y": 64,
+   "w": 16,
+   "h": 16,
+   "category": "castle"
+  },
+  "dead_tree": {
+   "x": 400,
+   "y": 64,
+   "w": 16,
+   "h": 16,
+   "category": "swamp"
+  },
+  "cattail": {
+   "x": 416,
+   "y": 64,
+   "w": 16,
+   "h": 16,
+   "category": "swamp"
+  },
+  "lily_pad": {
+   "x": 432,
+   "y": 64,
+   "w": 16,
+   "h": 16,
+   "category": "swamp"
+  },
+  "toadstool_red": {
+   "x": 448,
+   "y": 64,
+   "w": 16,
+   "h": 16,
+   "category": "swamp"
+  },
+  "vine_thick": {
+   "x": 464,
+   "y": 64,
+   "w": 16,
+   "h": 16,
+   "category": "swamp"
+  },
+  "log": {
+   "x": 480,
+   "y": 64,
+   "w": 16,
+   "h": 16,
+   "category": "swamp"
+  },
+  "frog": {
+   "x": 496,
+   "y": 64,
+   "w": 16,
+   "h": 16,
+   "category": "swamp"
+  },
+  "firefly": {
+   "x": 0,
+   "y": 80,
+   "w": 16,
+   "h": 16,
+   "category": "swamp"
+  },
+  "skull_post": {
+   "x": 16,
+   "y": 80,
+   "w": 16,
+   "h": 16,
+   "category": "swamp"
+  },
+  "poison_bubble": {
+   "x": 32,
+   "y": 80,
+   "w": 16,
+   "h": 16,
+   "category": "swamp"
+  },
+  "mossy_rock": {
+   "x": 48,
+   "y": 80,
+   "w": 16,
+   "h": 16,
+   "category": "swamp"
+  },
+  "icicle": {
+   "x": 64,
+   "y": 80,
+   "w": 16,
+   "h": 16,
+   "category": "ice"
+  },
+  "ice_crystal": {
+   "x": 80,
+   "y": 80,
+   "w": 16,
+   "h": 16,
+   "category": "ice"
+  },
+  "snowman": {
+   "x": 96,
+   "y": 80,
+   "w": 16,
+   "h": 16,
+   "category": "ice"
+  },
+  "pine_snowy": {
+   "x": 112,
+   "y": 80,
+   "w": 16,
+   "h": 16,
+   "category": "ice"
+  },
+  "snow_pile": {
+   "x": 128,
+   "y": 80,
+   "w": 16,
+   "h": 16,
+   "category": "ice"
+  },
+  "igloo": {
+   "x": 144,
+   "y": 80,
+   "w": 16,
+   "h": 16,
+   "category": "ice"
+  },
+  "snowflake": {
+   "x": 160,
+   "y": 80,
+   "w": 16,
+   "h": 16,
+   "category": "ice"
+  },
+  "frozen_chest": {
+   "x": 176,
+   "y": 80,
+   "w": 16,
+   "h": 16,
+   "category": "ice"
+  },
+  "penguin": {
+   "x": 192,
+   "y": 80,
+   "w": 16,
+   "h": 16,
+   "category": "ice"
+  },
+  "scarf_post": {
+   "x": 224,
+   "y": 80,
+   "w": 16,
+   "h": 16,
+   "category": "ice"
+  },
+  "cactus": {
+   "x": 240,
+   "y": 80,
+   "w": 16,
+   "h": 16,
+   "category": "desert"
+  },
+  "cactus_small": {
+   "x": 256,
+   "y": 80,
+   "w": 16,
+   "h": 16,
+   "category": "desert"
+  },
+  "tumbleweed": {
+   "x": 272,
+   "y": 80,
+   "w": 16,
+   "h": 16,
+   "category": "desert"
+  },
+  "skull_cow": {
+   "x": 288,
+   "y": 80,
+   "w": 16,
+   "h": 16,
+   "category": "desert"
+  },
+  "palm_tree": {
+   "x": 304,
+   "y": 80,
+   "w": 16,
+   "h": 16,
+   "category": "desert"
+  },
+  "sand_dune": {
+   "x": 320,
+   "y": 80,
+   "w": 16,
+   "h": 16,
+   "category": "desert"
+  },
+  "scarab": {
+   "x": 336,
+   "y": 80,
+   "w": 16,
+   "h": 16,
+   "category": "desert"
+  },
+  "pyramid_small": {
+   "x": 352,
+   "y": 80,
+   "w": 16,
+   "h": 16,
+   "category": "desert"
+  },
+  "oasis_pool": {
+   "x": 368,
+   "y": 80,
+   "w": 16,
+   "h": 16,
+   "category": "desert"
+  },
+  "clay_pot": {
+   "x": 384,
+   "y": 80,
+   "w": 16,
+   "h": 16,
+   "category": "desert"
+  },
+  "sandstone_arch": {
+   "x": 400,
+   "y": 80,
+   "w": 16,
+   "h": 16,
+   "category": "desert"
+  }
+ }
+}

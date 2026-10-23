@@ -1,0 +1,64 @@
+[gd_scene format=4 uid="uid://ckpo5v17coluh"]
+
+[ext_resource type="Script" uid="uid://b6ymplckpb5cp" path="res://scripts/whitebox_world.gd" id="1_k78bi"]
+[ext_resource type="TileSet" uid="uid://cfgf624g306by" path="res://tilesets/03_背景墙.tres" id="2_y566s"]
+[ext_resource type="TileSet" uid="uid://cpbx3n8dbavj5" path="res://tilesets/04_装饰.tres" id="3_p37ec"]
+[ext_resource type="TileSet" uid="uid://gq61sg2j3un6" path="res://tilesets/01_实体地形.tres" id="4_km23i"]
+[ext_resource type="TileSet" uid="uid://ms43ml10yjri" path="res://tilesets/02_单向平台.tres" id="5_fwtyy"]
+[ext_resource type="TileSet" uid="uid://bau20jpu5pqrf" path="res://tilesets/05_攀爬.tres" id="6_l346s"]
+[ext_resource type="TileSet" uid="uid://cfyhiu21md7jt" path="res://tilesets/06_液体.tres" id="7_o2652"]
+[ext_resource type="TileSet" uid="uid://obk51m2yompu" path="res://tilesets/07_危险物.tres" id="8_dqado"]
+[ext_resource type="TileSet" uid="uid://bmq4vo4dwst1m" path="res://tilesets/08_交互标记.tres" id="9_8s8bq"]
+[ext_resource type="PackedScene" path="res://scenes/actors/test_player.tscn" id="10_digpa"]
+
+[node name="WhiteboxTemplate" type="Node2D" unique_id=1784319282]
+texture_filter = 1
+script = ExtResource("1_k78bi")
+
+[node name="00_Background_背景墙" type="TileMapLayer" parent="." unique_id=467380634]
+modulate = Color(0.35, 0.4, 0.5, 1)
+z_index = -50
+tile_set = ExtResource("2_y566s")
+
+[node name="10_BackDecor_后景装饰" type="TileMapLayer" parent="." unique_id=267649019]
+z_index = -30
+tile_set = ExtResource("3_p37ec")
+
+[node name="20_Solid_实体地形" type="TileMapLayer" parent="." unique_id=1589368576]
+tile_map_data = PackedByteArray("AAAAAAoADQAJAAAAAAABAAoADQAKAAAAAAACAAoADQAKAAAAAAADAAoADQAKAAAAAAAEAAoADQAKAAAAAAAFAAoADQAKAAAAAAAGAAoADQAKAAAAAAAHAAoADQAKAAAAAAAIAAoADQAKAAAAAAAJAAoADQAKAAAAAAAKAAoADQAKAAAAAAALAAoADQAMAAAAAAAAAAsADQAHAAAAAAABAAsADQAEAAAAAAACAAsADQAEAAAAAAADAAsADQAEAAAAAAAEAAsADQAEAAAAAAAFAAsADQAEAAAAAAAGAAsADQAEAAAAAAAHAAsADQAEAAAAAAAIAAsADQAEAAAAAAAJAAsADQAEAAAAAAAKAAsADQAEAAAAAAALAAsADQAIAAAAAAAAAAwADQAAAAAAAAABAAwADQACAAAAAAACAAwADQACAAAAAAADAAwADQACAAAAAAAEAAwADQACAAAAAAAFAAwADQACAAAAAAAGAAwADQACAAAAAAAHAAwADQACAAAAAAAIAAwADQACAAAAAAAJAAwADQACAAAAAAAKAAwADQACAAAAAAALAAwADQADAAAAAAA=")
+tile_set = ExtResource("4_km23i")
+
+[node name="30_OneWay_单向平台" type="TileMapLayer" parent="." unique_id=1908408868]
+z_index = 2
+tile_set = ExtResource("5_fwtyy")
+
+[node name="40_Climb_梯子藤蔓" type="TileMapLayer" parent="." unique_id=1100728064]
+z_index = 4
+tile_set = ExtResource("6_l346s")
+
+[node name="50_Liquids_液体" type="TileMapLayer" parent="." unique_id=2085570523]
+z_index = 6
+tile_set = ExtResource("7_o2652")
+
+[node name="60_Hazards_危险物" type="TileMapLayer" parent="." unique_id=1555207079]
+z_index = 8
+tile_set = ExtResource("8_dqado")
+
+[node name="70_Interactables_交互标记" type="TileMapLayer" parent="." unique_id=1744864452]
+z_index = 10
+tile_set = ExtResource("9_8s8bq")
+
+[node name="80_Foreground_前景装饰" type="TileMapLayer" parent="." unique_id=468600843]
+z_index = 30
+tile_set = ExtResource("3_p37ec")
+
+[node name="Spawn" type="Marker2D" parent="." unique_id=621318389]
+position = Vector2(56, 160)
+gizmo_extents = 8.0
+
+[node name="Player" parent="." unique_id=2002956933 instance=ExtResource("10_digpa")]
+z_index = 20
+position = Vector2(56, 160)
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1658566618]
+position = Vector2(320, 180)

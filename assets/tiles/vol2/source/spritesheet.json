@@ -1,0 +1,948 @@
+{
+ "meta": {
+  "name": "Pixel Platformer Tileset Vol. 2",
+  "tile_size": 16,
+  "image": "spritesheet.png",
+  "count": 134
+ },
+ "frames": {
+  "door_closed": {
+   "x": 0,
+   "y": 0,
+   "w": 32,
+   "h": 32,
+   "category": "doors"
+  },
+  "door_open": {
+   "x": 32,
+   "y": 0,
+   "w": 32,
+   "h": 32,
+   "category": "doors"
+  },
+  "door_locked": {
+   "x": 64,
+   "y": 0,
+   "w": 32,
+   "h": 32,
+   "category": "doors"
+  },
+  "floating_island": {
+   "x": 96,
+   "y": 0,
+   "w": 32,
+   "h": 32,
+   "category": "sky"
+  },
+  "cave_tl": {
+   "x": 128,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "cave_top": {
+   "x": 144,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "cave_tr": {
+   "x": 160,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "cave_left": {
+   "x": 176,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "cave_center": {
+   "x": 192,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "cave_right": {
+   "x": 208,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "cave_bl": {
+   "x": 224,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "cave_bottom": {
+   "x": 240,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "cave_br": {
+   "x": 256,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "cave_plat_left": {
+   "x": 272,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "category": "platforms"
+  },
+  "cave_plat_mid": {
+   "x": 288,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "category": "platforms"
+  },
+  "cave_plat_right": {
+   "x": 304,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "category": "platforms"
+  },
+  "cave_fill_b": {
+   "x": 320,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "cave_block": {
+   "x": 336,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "lava_tl": {
+   "x": 352,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "lava_top": {
+   "x": 368,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "lava_tr": {
+   "x": 384,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "lava_left": {
+   "x": 400,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "lava_center": {
+   "x": 416,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "lava_right": {
+   "x": 432,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "lava_bl": {
+   "x": 448,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "lava_bottom": {
+   "x": 464,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "lava_br": {
+   "x": 480,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "lava_plat_left": {
+   "x": 496,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "category": "platforms"
+  },
+  "lava_plat_mid": {
+   "x": 0,
+   "y": 32,
+   "w": 16,
+   "h": 16,
+   "category": "platforms"
+  },
+  "lava_plat_right": {
+   "x": 16,
+   "y": 32,
+   "w": 16,
+   "h": 16,
+   "category": "platforms"
+  },
+  "lava_fill_b": {
+   "x": 32,
+   "y": 32,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "lava_block": {
+   "x": 48,
+   "y": 32,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "sky_tl": {
+   "x": 64,
+   "y": 32,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "sky_top": {
+   "x": 80,
+   "y": 32,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "sky_tr": {
+   "x": 96,
+   "y": 32,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "sky_left": {
+   "x": 112,
+   "y": 32,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "sky_center": {
+   "x": 128,
+   "y": 32,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "sky_right": {
+   "x": 144,
+   "y": 32,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "sky_bl": {
+   "x": 160,
+   "y": 32,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "sky_bottom": {
+   "x": 176,
+   "y": 32,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "sky_br": {
+   "x": 192,
+   "y": 32,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "sky_plat_left": {
+   "x": 208,
+   "y": 32,
+   "w": 16,
+   "h": 16,
+   "category": "platforms"
+  },
+  "sky_plat_mid": {
+   "x": 224,
+   "y": 32,
+   "w": 16,
+   "h": 16,
+   "category": "platforms"
+  },
+  "sky_plat_right": {
+   "x": 240,
+   "y": 32,
+   "w": 16,
+   "h": 16,
+   "category": "platforms"
+  },
+  "sky_fill_b": {
+   "x": 256,
+   "y": 32,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "sky_block": {
+   "x": 272,
+   "y": 32,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "ruins_tl": {
+   "x": 288,
+   "y": 32,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "ruins_top": {
+   "x": 304,
+   "y": 32,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "ruins_tr": {
+   "x": 320,
+   "y": 32,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "ruins_left": {
+   "x": 336,
+   "y": 32,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "ruins_center": {
+   "x": 352,
+   "y": 32,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "ruins_right": {
+   "x": 368,
+   "y": 32,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "ruins_bl": {
+   "x": 384,
+   "y": 32,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "ruins_bottom": {
+   "x": 400,
+   "y": 32,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "ruins_br": {
+   "x": 416,
+   "y": 32,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "ruins_plat_left": {
+   "x": 432,
+   "y": 32,
+   "w": 16,
+   "h": 16,
+   "category": "platforms"
+  },
+  "ruins_plat_mid": {
+   "x": 448,
+   "y": 32,
+   "w": 16,
+   "h": 16,
+   "category": "platforms"
+  },
+  "ruins_plat_right": {
+   "x": 464,
+   "y": 32,
+   "w": 16,
+   "h": 16,
+   "category": "platforms"
+  },
+  "ruins_fill_b": {
+   "x": 480,
+   "y": 32,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "ruins_block": {
+   "x": 496,
+   "y": 32,
+   "w": 16,
+   "h": 16,
+   "category": "terrain"
+  },
+  "cave_wall_bg": {
+   "x": 0,
+   "y": 48,
+   "w": 16,
+   "h": 16,
+   "category": "background"
+  },
+  "ruins_wall_bg": {
+   "x": 16,
+   "y": 48,
+   "w": 16,
+   "h": 16,
+   "category": "background"
+  },
+  "lava_top_a": {
+   "x": 32,
+   "y": 48,
+   "w": 16,
+   "h": 16,
+   "category": "liquid"
+  },
+  "lava_top_b": {
+   "x": 48,
+   "y": 48,
+   "w": 16,
+   "h": 16,
+   "category": "liquid"
+  },
+  "lava_fill": {
+   "x": 64,
+   "y": 48,
+   "w": 16,
+   "h": 16,
+   "category": "liquid"
+  },
+  "lavafall": {
+   "x": 80,
+   "y": 48,
+   "w": 16,
+   "h": 16,
+   "category": "liquid"
+  },
+  "spikes_up": {
+   "x": 96,
+   "y": 48,
+   "w": 16,
+   "h": 16,
+   "category": "hazards"
+  },
+  "spikes_down": {
+   "x": 112,
+   "y": 48,
+   "w": 16,
+   "h": 16,
+   "category": "hazards"
+  },
+  "spikes_left": {
+   "x": 128,
+   "y": 48,
+   "w": 16,
+   "h": 16,
+   "category": "hazards"
+  },
+  "spikes_right": {
+   "x": 144,
+   "y": 48,
+   "w": 16,
+   "h": 16,
+   "category": "hazards"
+  },
+  "saw_blade": {
+   "x": 160,
+   "y": 48,
+   "w": 16,
+   "h": 16,
+   "category": "hazards"
+  },
+  "fireball": {
+   "x": 176,
+   "y": 48,
+   "w": 16,
+   "h": 16,
+   "category": "hazards"
+  },
+  "falling_stalactite": {
+   "x": 192,
+   "y": 48,
+   "w": 16,
+   "h": 16,
+   "category": "hazards"
+  },
+  "spring_idle": {
+   "x": 208,
+   "y": 48,
+   "w": 16,
+   "h": 16,
+   "category": "gadgets"
+  },
+  "spring_extended": {
+   "x": 224,
+   "y": 48,
+   "w": 16,
+   "h": 16,
+   "category": "gadgets"
+  },
+  "lever_off": {
+   "x": 240,
+   "y": 48,
+   "w": 16,
+   "h": 16,
+   "category": "gadgets"
+  },
+  "lever_on": {
+   "x": 256,
+   "y": 48,
+   "w": 16,
+   "h": 16,
+   "category": "gadgets"
+  },
+  "button_up": {
+   "x": 272,
+   "y": 48,
+   "w": 16,
+   "h": 16,
+   "category": "gadgets"
+  },
+  "button_pressed": {
+   "x": 288,
+   "y": 48,
+   "w": 16,
+   "h": 16,
+   "category": "gadgets"
+  },
+  "checkpoint_off": {
+   "x": 304,
+   "y": 48,
+   "w": 16,
+   "h": 16,
+   "category": "gadgets"
+  },
+  "checkpoint_on": {
+   "x": 320,
+   "y": 48,
+   "w": 16,
+   "h": 16,
+   "category": "gadgets"
+  },
+  "question_block": {
+   "x": 336,
+   "y": 48,
+   "w": 16,
+   "h": 16,
+   "category": "gadgets"
+  },
+  "used_block": {
+   "x": 352,
+   "y": 48,
+   "w": 16,
+   "h": 16,
+   "category": "gadgets"
+  },
+  "crumbling_block": {
+   "x": 368,
+   "y": 48,
+   "w": 16,
+   "h": 16,
+   "category": "gadgets"
+  },
+  "metal_crate": {
+   "x": 384,
+   "y": 48,
+   "w": 16,
+   "h": 16,
+   "category": "gadgets"
+  },
+  "metal_left": {
+   "x": 400,
+   "y": 48,
+   "w": 16,
+   "h": 16,
+   "category": "moving_platform"
+  },
+  "cloud_left": {
+   "x": 416,
+   "y": 48,
+   "w": 16,
+   "h": 16,
+   "category": "moving_platform"
+  },
+  "metal_mid": {
+   "x": 432,
+   "y": 48,
+   "w": 16,
+   "h": 16,
+   "category": "moving_platform"
+  },
+  "cloud_mid": {
+   "x": 448,
+   "y": 48,
+   "w": 16,
+   "h": 16,
+   "category": "moving_platform"
+  },
+  "metal_right": {
+   "x": 464,
+   "y": 48,
+   "w": 16,
+   "h": 16,
+   "category": "moving_platform"
+  },
+  "cloud_right": {
+   "x": 480,
+   "y": 48,
+   "w": 16,
+   "h": 16,
+   "category": "moving_platform"
+  },
+  "chain": {
+   "x": 496,
+   "y": 48,
+   "w": 16,
+   "h": 16,
+   "category": "moving_platform"
+  },
+  "coin_spin_0": {
+   "x": 0,
+   "y": 64,
+   "w": 16,
+   "h": 16,
+   "category": "collectibles"
+  },
+  "coin_spin_1": {
+   "x": 16,
+   "y": 64,
+   "w": 16,
+   "h": 16,
+   "category": "collectibles"
+  },
+  "coin_spin_2": {
+   "x": 32,
+   "y": 64,
+   "w": 16,
+   "h": 16,
+   "category": "collectibles"
+  },
+  "coin_spin_3": {
+   "x": 48,
+   "y": 64,
+   "w": 16,
+   "h": 16,
+   "category": "collectibles"
+  },
+  "gem_red": {
+   "x": 64,
+   "y": 64,
+   "w": 16,
+   "h": 16,
+   "category": "collectibles"
+  },
+  "gem_green": {
+   "x": 80,
+   "y": 64,
+   "w": 16,
+   "h": 16,
+   "category": "collectibles"
+  },
+  "key_gold": {
+   "x": 96,
+   "y": 64,
+   "w": 16,
+   "h": 16,
+   "category": "collectibles"
+  },
+  "star": {
+   "x": 112,
+   "y": 64,
+   "w": 16,
+   "h": 16,
+   "category": "collectibles"
+  },
+  "heart": {
+   "x": 128,
+   "y": 64,
+   "w": 16,
+   "h": 16,
+   "category": "collectibles"
+  },
+  "ladder_top": {
+   "x": 144,
+   "y": 64,
+   "w": 16,
+   "h": 16,
+   "category": "climb"
+  },
+  "ladder_mid": {
+   "x": 160,
+   "y": 64,
+   "w": 16,
+   "h": 16,
+   "category": "climb"
+  },
+  "rope": {
+   "x": 176,
+   "y": 64,
+   "w": 16,
+   "h": 16,
+   "category": "climb"
+  },
+  "vine_hanging": {
+   "x": 192,
+   "y": 64,
+   "w": 16,
+   "h": 16,
+   "category": "climb"
+  },
+  "exit_sign": {
+   "x": 208,
+   "y": 64,
+   "w": 16,
+   "h": 16,
+   "category": "doors"
+  },
+  "stalactite": {
+   "x": 224,
+   "y": 64,
+   "w": 16,
+   "h": 16,
+   "category": "cave"
+  },
+  "stalagmite": {
+   "x": 240,
+   "y": 64,
+   "w": 16,
+   "h": 16,
+   "category": "cave"
+  },
+  "crystal_blue": {
+   "x": 256,
+   "y": 64,
+   "w": 16,
+   "h": 16,
+   "category": "cave"
+  },
+  "crystal_purple": {
+   "x": 272,
+   "y": 64,
+   "w": 16,
+   "h": 16,
+   "category": "cave"
+  },
+  "glow_mushroom": {
+   "x": 288,
+   "y": 64,
+   "w": 16,
+   "h": 16,
+   "category": "cave"
+  },
+  "lantern": {
+   "x": 304,
+   "y": 64,
+   "w": 16,
+   "h": 16,
+   "category": "cave"
+  },
+  "minecart": {
+   "x": 320,
+   "y": 64,
+   "w": 16,
+   "h": 16,
+   "category": "cave"
+  },
+  "rail": {
+   "x": 336,
+   "y": 64,
+   "w": 16,
+   "h": 16,
+   "category": "cave"
+  },
+  "obsidian_rock": {
+   "x": 352,
+   "y": 64,
+   "w": 16,
+   "h": 16,
+   "category": "lava"
+  },
+  "ember_vent": {
+   "x": 368,
+   "y": 64,
+   "w": 16,
+   "h": 16,
+   "category": "lava"
+  },
+  "charred_tree": {
+   "x": 384,
+   "y": 64,
+   "w": 16,
+   "h": 16,
+   "category": "lava"
+  },
+  "lava_bubble": {
+   "x": 400,
+   "y": 64,
+   "w": 16,
+   "h": 16,
+   "category": "lava"
+  },
+  "skull_bones": {
+   "x": 416,
+   "y": 64,
+   "w": 16,
+   "h": 16,
+   "category": "lava"
+  },
+  "cloud_puff": {
+   "x": 432,
+   "y": 64,
+   "w": 16,
+   "h": 16,
+   "category": "sky"
+  },
+  "hanging_roots": {
+   "x": 448,
+   "y": 64,
+   "w": 16,
+   "h": 16,
+   "category": "sky"
+  },
+  "wind_flower": {
+   "x": 464,
+   "y": 64,
+   "w": 16,
+   "h": 16,
+   "category": "sky"
+  },
+  "feather": {
+   "x": 480,
+   "y": 64,
+   "w": 16,
+   "h": 16,
+   "category": "sky"
+  },
+  "balloon": {
+   "x": 496,
+   "y": 64,
+   "w": 16,
+   "h": 16,
+   "category": "sky"
+  },
+  "pillar_top": {
+   "x": 0,
+   "y": 80,
+   "w": 16,
+   "h": 16,
+   "category": "ruins"
+  },
+  "pillar_mid": {
+   "x": 16,
+   "y": 80,
+   "w": 16,
+   "h": 16,
+   "category": "ruins"
+  },
+  "pillar_base": {
+   "x": 32,
+   "y": 80,
+   "w": 16,
+   "h": 16,
+   "category": "ruins"
+  },
+  "pillar_broken": {
+   "x": 48,
+   "y": 80,
+   "w": 16,
+   "h": 16,
+   "category": "ruins"
+  },
+  "urn": {
+   "x": 64,
+   "y": 80,
+   "w": 16,
+   "h": 16,
+   "category": "ruins"
+  },
+  "statue_head": {
+   "x": 80,
+   "y": 80,
+   "w": 16,
+   "h": 16,
+   "category": "ruins"
+  },
+  "wall_torch": {
+   "x": 96,
+   "y": 80,
+   "w": 16,
+   "h": 16,
+   "category": "ruins"
+  },
+  "rubble": {
+   "x": 112,
+   "y": 80,
+   "w": 16,
+   "h": 16,
+   "category": "ruins"
+  },
+  "moss_hanging": {
+   "x": 128,
+   "y": 80,
+   "w": 16,
+   "h": 16,
+   "category": "ruins"
+  },
+  "ancient_tablet": {
+   "x": 144,
+   "y": 80,
+   "w": 16,
+   "h": 16,
+   "category": "ruins"
+  }
+ }
+}

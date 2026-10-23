@@ -1,0 +1,151 @@
+{
+  "tile_size": 16,
+  "atlas_columns": 16,
+  "atlas_margin": 0,
+  "atlas_separation": 0,
+  "counts": {
+    "packs": 3,
+    "sprites": 387,
+    "atlas_sources": 55,
+    "single_cell_sprites": 375,
+    "multi_cell_sprites": 12,
+    "native_and_atlas_pixel_validations": 387
+  },
+  "packs": {
+    "forest": {
+      "original_folder": "Pixel_Forest_Platformer_Tileset_v1.0",
+      "native_png_count": 102,
+      "json_frame_count": 102,
+      "metadata_pixel_matches": 102,
+      "category_counts": {
+        "bushes": 3,
+        "clouds_sky": 3,
+        "hazards_gadgets": 3,
+        "nature": 11,
+        "pickups": 4,
+        "platforms": 12,
+        "props": 11,
+        "terrain": 52,
+        "trees": 3
+      },
+      "size_counts": {
+        "16x16": 97,
+        "48x48": 5
+      },
+      "original_spritesheet_size": [
+        512,
+        96
+      ],
+      "original_tileset_size": [
+        160,
+        112
+      ]
+    },
+    "vol2": {
+      "original_folder": "Pixel_Platformer_Tileset_Vol2_v1.0",
+      "native_png_count": 134,
+      "json_frame_count": 134,
+      "metadata_pixel_matches": 134,
+      "category_counts": {
+        "background": 2,
+        "cave": 8,
+        "climb": 4,
+        "collectibles": 9,
+        "doors": 4,
+        "gadgets": 12,
+        "hazards": 7,
+        "lava": 5,
+        "liquid": 4,
+        "moving_platform": 7,
+        "platforms": 12,
+        "ruins": 10,
+        "sky": 6,
+        "terrain": 44
+      },
+      "size_counts": {
+        "16x16": 130,
+        "32x32": 4
+      },
+      "original_spritesheet_size": [
+        512,
+        96
+      ],
+      "original_tileset_size": [
+        224,
+        80
+      ]
+    },
+    "vol3": {
+      "original_folder": "Pixel_Platformer_Tileset_Vol3_v1.0",
+      "native_png_count": 151,
+      "json_frame_count": 150,
+      "metadata_pixel_matches": 150,
+      "category_counts": {
+        "background": 2,
+        "castle": 14,
+        "climb": 4,
+        "collectibles": 9,
+        "desert": 11,
+        "doors": 4,
+        "gadgets": 12,
+        "hazards": 7,
+        "ice": 11,
+        "liquid": 3,
+        "moving_platform": 7,
+        "platforms": 12,
+        "swamp": 11,
+        "terrain": 44
+      },
+      "size_counts": {
+        "16x16": 148,
+        "32x32": 3
+      },
+      "original_spritesheet_size": [
+        512,
+        96
+      ],
+      "original_tileset_size": [
+        224,
+        80
+      ]
+    }
+  },
+  "anomalies": [
+    {
+      "type": "missing_or_conflicting_spritesheet_metadata",
+      "sprite_key": "vol3/terrain/ice_block",
+      "resolution": "Imported the original PNG by category and filename; no sprite was dropped.",
+      "detail": "Two ice_block files share one JSON key; metadata points to ice/ice_block.",
+      "recovered_original_sheet_rect": [
+        240,
+        32,
+        16,
+        16
+      ]
+    },
+    {
+      "type": "metadata_count_mismatch",
+      "pack": "vol3",
+      "declared_sprite_count": 151,
+      "json_frame_count": 150,
+      "native_png_count": 151
+    }
+  ],
+  "notes": [
+    "All 387 original native PNGs are preserved, including both Vol. 3 ice_block files.",
+    "Large objects keep their original full frame and transparency; no artwork is cropped or resized.",
+    "Original source documents and reference sheets are stored under each pack's source/.gdignore.",
+    "x4 PNGs duplicate native artwork; GIFs are enlarged previews, so neither are imported as extra sprites.",
+    "Terrain packs provide outer corners and edges, but not all concave-corner or narrow-connection combinations.",
+    "Animation atlases are prepared separately from these static categorized atlases."
+  ],
+  "license": {
+    "author": "reodesuxz",
+    "personal_and_commercial_projects": true,
+    "project_modifications": true,
+    "attribution_required": false,
+    "standalone_asset_redistribution": false,
+    "ai_training": false,
+    "original_license_preserved_for_each_pack": true
+  }
+}

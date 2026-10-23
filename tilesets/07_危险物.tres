@@ -1,0 +1,144 @@
+[gd_resource type="TileSet" format=3 uid="uid://obk51m2yompu"]
+
+[ext_resource type="Texture2D" uid="uid://cg3xjjjy0ieti" path="res://assets/atlases/forest_hazards_gadgets.png" id="1_uqhnn"]
+[ext_resource type="Texture2D" uid="uid://dv4kl2m45ltft" path="res://assets/atlases/vol2_hazards.png" id="2_rxmbl"]
+[ext_resource type="Texture2D" uid="uid://0tfkbb1geedh" path="res://assets/atlases/vol3_hazards.png" id="3_14t58"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0cngd"]
+resource_name = "森林 · 危险物与机关 | Forest / Hazards and Gadgets"
+texture = ExtResource("1_uqhnn")
+1:0/0 = 0
+1:0/0/physics_layer_2/polygon_0/points = PackedVector2Array(-8, -4, 8, -4, 8, 8, -8, 8)
+1:0/0/custom_data_0 = "forest/hazards_gadgets/spikes"
+1:0/0/custom_data_1 = "spikes"
+1:0/0/custom_data_2 = "hazards_gadgets"
+1:0/0/custom_data_3 = "hazard"
+1:0/0/custom_data_4 = "forest"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_10ts8"]
+resource_name = "洞穴与遗迹 · 危险物 | Vol. 2 / Hazards"
+texture = ExtResource("2_rxmbl")
+0:0/0 = 0
+0:0/0/physics_layer_2/polygon_0/points = PackedVector2Array(-6, -8, 7, -8, 7, 8, -6, 8)
+0:0/0/custom_data_0 = "vol2/hazards/falling_stalactite"
+0:0/0/custom_data_1 = "falling_stalactite"
+0:0/0/custom_data_2 = "hazards"
+0:0/0/custom_data_3 = "hazard"
+0:0/0/custom_data_4 = "vol2"
+1:0/0 = 0
+1:0/0/physics_layer_2/polygon_0/points = PackedVector2Array(-7, -8, 8, -8, 8, 8, -7, 8)
+1:0/0/custom_data_0 = "vol2/hazards/fireball"
+1:0/0/custom_data_1 = "fireball"
+1:0/0/custom_data_2 = "hazards"
+1:0/0/custom_data_3 = "hazard"
+1:0/0/custom_data_4 = "vol2"
+2:0/0 = 0
+2:0/0/physics_layer_2/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+2:0/0/custom_data_0 = "vol2/hazards/saw_blade"
+2:0/0/custom_data_1 = "saw_blade"
+2:0/0/custom_data_2 = "hazards"
+2:0/0/custom_data_3 = "hazard"
+2:0/0/custom_data_4 = "vol2"
+3:0/0 = 0
+3:0/0/physics_layer_2/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 6, -8, 6)
+3:0/0/custom_data_0 = "vol2/hazards/spikes_down"
+3:0/0/custom_data_1 = "spikes_down"
+3:0/0/custom_data_2 = "hazards"
+3:0/0/custom_data_3 = "hazard"
+3:0/0/custom_data_4 = "vol2"
+4:0/0 = 0
+4:0/0/physics_layer_2/polygon_0/points = PackedVector2Array(-6, -8, 8, -8, 8, 8, -6, 8)
+4:0/0/custom_data_0 = "vol2/hazards/spikes_left"
+4:0/0/custom_data_1 = "spikes_left"
+4:0/0/custom_data_2 = "hazards"
+4:0/0/custom_data_3 = "hazard"
+4:0/0/custom_data_4 = "vol2"
+5:0/0 = 0
+5:0/0/physics_layer_2/polygon_0/points = PackedVector2Array(-8, -8, 6, -8, 6, 8, -8, 8)
+5:0/0/custom_data_0 = "vol2/hazards/spikes_right"
+5:0/0/custom_data_1 = "spikes_right"
+5:0/0/custom_data_2 = "hazards"
+5:0/0/custom_data_3 = "hazard"
+5:0/0/custom_data_4 = "vol2"
+6:0/0 = 0
+6:0/0/physics_layer_2/polygon_0/points = PackedVector2Array(-8, -6, 8, -6, 8, 8, -8, 8)
+6:0/0/custom_data_0 = "vol2/hazards/spikes_up"
+6:0/0/custom_data_1 = "spikes_up"
+6:0/0/custom_data_2 = "hazards"
+6:0/0/custom_data_3 = "hazard"
+6:0/0/custom_data_4 = "vol2"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_5m46f"]
+resource_name = "城堡与沼泽 · 危险物 | Vol. 3 / Hazards"
+texture = ExtResource("3_14t58")
+0:0/0 = 0
+0:0/0/physics_layer_2/polygon_0/points = PackedVector2Array(-6, -8, 7, -8, 7, 8, -6, 8)
+0:0/0/custom_data_0 = "vol3/hazards/falling_stalactite"
+0:0/0/custom_data_1 = "falling_stalactite"
+0:0/0/custom_data_2 = "hazards"
+0:0/0/custom_data_3 = "hazard"
+0:0/0/custom_data_4 = "vol3"
+1:0/0 = 0
+1:0/0/physics_layer_2/polygon_0/points = PackedVector2Array(-7, -8, 8, -8, 8, 8, -7, 8)
+1:0/0/custom_data_0 = "vol3/hazards/fireball"
+1:0/0/custom_data_1 = "fireball"
+1:0/0/custom_data_2 = "hazards"
+1:0/0/custom_data_3 = "hazard"
+1:0/0/custom_data_4 = "vol3"
+2:0/0 = 0
+2:0/0/physics_layer_2/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+2:0/0/custom_data_0 = "vol3/hazards/saw_blade"
+2:0/0/custom_data_1 = "saw_blade"
+2:0/0/custom_data_2 = "hazards"
+2:0/0/custom_data_3 = "hazard"
+2:0/0/custom_data_4 = "vol3"
+3:0/0 = 0
+3:0/0/physics_layer_2/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 6, -8, 6)
+3:0/0/custom_data_0 = "vol3/hazards/spikes_down"
+3:0/0/custom_data_1 = "spikes_down"
+3:0/0/custom_data_2 = "hazards"
+3:0/0/custom_data_3 = "hazard"
+3:0/0/custom_data_4 = "vol3"
+4:0/0 = 0
+4:0/0/physics_layer_2/polygon_0/points = PackedVector2Array(-6, -8, 8, -8, 8, 8, -6, 8)
+4:0/0/custom_data_0 = "vol3/hazards/spikes_left"
+4:0/0/custom_data_1 = "spikes_left"
+4:0/0/custom_data_2 = "hazards"
+4:0/0/custom_data_3 = "hazard"
+4:0/0/custom_data_4 = "vol3"
+5:0/0 = 0
+5:0/0/physics_layer_2/polygon_0/points = PackedVector2Array(-8, -8, 6, -8, 6, 8, -8, 8)
+5:0/0/custom_data_0 = "vol3/hazards/spikes_right"
+5:0/0/custom_data_1 = "spikes_right"
+5:0/0/custom_data_2 = "hazards"
+5:0/0/custom_data_3 = "hazard"
+5:0/0/custom_data_4 = "vol3"
+6:0/0 = 0
+6:0/0/physics_layer_2/polygon_0/points = PackedVector2Array(-8, -6, 8, -6, 8, 8, -8, 8)
+6:0/0/custom_data_0 = "vol3/hazards/spikes_up"
+6:0/0/custom_data_1 = "spikes_up"
+6:0/0/custom_data_2 = "hazards"
+6:0/0/custom_data_3 = "hazard"
+6:0/0/custom_data_4 = "vol3"
+
+[resource]
+resource_name = "07_危险物"
+physics_layer_0/collision_layer = 1
+physics_layer_0/collision_mask = 4
+physics_layer_1/collision_layer = 2
+physics_layer_1/collision_mask = 4
+physics_layer_2/collision_layer = 8
+physics_layer_2/collision_mask = 4
+custom_data_layer_0/name = "asset_key"
+custom_data_layer_0/type = 4
+custom_data_layer_1/name = "display_name"
+custom_data_layer_1/type = 4
+custom_data_layer_2/name = "category"
+custom_data_layer_2/type = 4
+custom_data_layer_3/name = "behavior"
+custom_data_layer_3/type = 4
+custom_data_layer_4/name = "pack"
+custom_data_layer_4/type = 4
+sources/2 = SubResource("TileSetAtlasSource_0cngd")
+sources/21 = SubResource("TileSetAtlasSource_10ts8")
+sources/42 = SubResource("TileSetAtlasSource_5m46f")

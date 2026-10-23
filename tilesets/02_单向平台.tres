@@ -1,0 +1,551 @@
+[gd_resource type="TileSet" format=3 uid="uid://ms43ml10yjri"]
+
+[ext_resource type="Texture2D" uid="uid://c7kd5d3fwdr6k" path="res://assets/atlases/vol2_moving_platform.png" id="1_7s5dq"]
+[ext_resource type="Texture2D" uid="uid://8ra75gnaj450" path="res://assets/atlases/vol2_platforms_cave.png" id="2_a16gw"]
+[ext_resource type="Texture2D" uid="uid://bjfer3n2u8u4e" path="res://assets/atlases/vol2_platforms_lava.png" id="3_52k2u"]
+[ext_resource type="Texture2D" uid="uid://dumf8q1f4v4ix" path="res://assets/atlases/vol2_platforms_ruins.png" id="4_c64hw"]
+[ext_resource type="Texture2D" uid="uid://nb114wxepff1" path="res://assets/atlases/vol2_platforms_sky.png" id="5_nie6b"]
+[ext_resource type="Texture2D" uid="uid://cj27b7nnipdq8" path="res://assets/atlases/vol3_moving_platform.png" id="6_w6ekn"]
+[ext_resource type="Texture2D" uid="uid://dx3lc5hgu316x" path="res://assets/atlases/vol3_platforms_castle.png" id="7_xb12x"]
+[ext_resource type="Texture2D" uid="uid://cgi66teyj5vvb" path="res://assets/atlases/vol3_platforms_desert.png" id="8_ixqbj"]
+[ext_resource type="Texture2D" uid="uid://b48fu0p533f1q" path="res://assets/atlases/vol3_platforms_ice.png" id="9_mu4l3"]
+[ext_resource type="Texture2D" uid="uid://brcgk8v7l7u8k" path="res://assets/atlases/vol3_platforms_swamp.png" id="10_1tcss"]
+[ext_resource type="Texture2D" uid="uid://ygch2skkyxoo" path="res://assets/atlases/forest_platforms_grass.png" id="11_sxl36"]
+[ext_resource type="Texture2D" uid="uid://h63jsislli7o" path="res://assets/atlases/forest_platforms_sand.png" id="12_hmcyl"]
+[ext_resource type="Texture2D" uid="uid://cwvh1alktb5p8" path="res://assets/atlases/forest_platforms_snow.png" id="13_6kydw"]
+[ext_resource type="Texture2D" uid="uid://crt1xv3mox0ja" path="res://assets/atlases/forest_platforms_stone.png" id="14_7woem"]
+[ext_resource type="Texture2D" uid="uid://dpbparxtuep2y" path="res://assets/atlases/forest_props.png" id="15_wq5mm"]
+
+[sub_resource type="TileMapPattern" id="TileMapPattern_728rq"]
+tile_data = PackedInt32Array(0, 5, 0, 1, 65541, 0, 2, 131077, 0)
+
+[sub_resource type="TileMapPattern" id="TileMapPattern_t0awl"]
+tile_data = PackedInt32Array(0, 6, 0, 1, 65542, 0, 2, 131078, 0)
+
+[sub_resource type="TileMapPattern" id="TileMapPattern_kp8bl"]
+tile_data = PackedInt32Array(0, 48, 0, 1, 65584, 0, 2, 131120, 0)
+
+[sub_resource type="TileMapPattern" id="TileMapPattern_36iyc"]
+tile_data = PackedInt32Array(0, 49, 0, 1, 65585, 0, 2, 131121, 0)
+
+[sub_resource type="TileMapPattern" id="TileMapPattern_1mlig"]
+tile_data = PackedInt32Array(0, 7, 0, 1, 65543, 0, 2, 131079, 0)
+
+[sub_resource type="TileMapPattern" id="TileMapPattern_vy8en"]
+tile_data = PackedInt32Array(0, 8, 0, 1, 65544, 0, 2, 131080, 0)
+
+[sub_resource type="TileMapPattern" id="TileMapPattern_4cada"]
+tile_data = PackedInt32Array(0, 25, 0, 1, 65561, 0, 2, 131097, 0)
+
+[sub_resource type="TileMapPattern" id="TileMapPattern_a2bt5"]
+tile_data = PackedInt32Array(0, 26, 0, 1, 65562, 0, 2, 131098, 0)
+
+[sub_resource type="TileMapPattern" id="TileMapPattern_d14wd"]
+tile_data = PackedInt32Array(0, 27, 0, 1, 65563, 0, 2, 131099, 0)
+
+[sub_resource type="TileMapPattern" id="TileMapPattern_y2yug"]
+tile_data = PackedInt32Array(0, 28, 0, 1, 65564, 0, 2, 131100, 0)
+
+[sub_resource type="TileMapPattern" id="TileMapPattern_fkol0"]
+tile_data = PackedInt32Array(0, 46, 0, 1, 65582, 0, 2, 131118, 0)
+
+[sub_resource type="TileMapPattern" id="TileMapPattern_xentj"]
+tile_data = PackedInt32Array(0, 47, 0, 1, 65583, 0, 2, 131119, 0)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ko3d6"]
+resource_name = "洞穴与遗迹 · 移动平台组件 | Vol. 2 / Moving Platform Parts"
+texture = ExtResource("1_7s5dq")
+1:0/0 = 0
+1:0/0/physics_layer_1/polygon_0/points = PackedVector2Array(-8, -6, 8, -6, 8, -3, -8, -3)
+1:0/0/physics_layer_1/polygon_0/one_way = true
+1:0/0/custom_data_0 = "vol2/moving_platform/cloud_left"
+1:0/0/custom_data_1 = "cloud_left"
+1:0/0/custom_data_2 = "moving_platform"
+1:0/0/custom_data_3 = "one_way"
+1:0/0/custom_data_4 = "vol2"
+2:0/0 = 0
+2:0/0/physics_layer_1/polygon_0/points = PackedVector2Array(-8, -7, 8, -7, 8, -4, -8, -4)
+2:0/0/physics_layer_1/polygon_0/one_way = true
+2:0/0/custom_data_0 = "vol2/moving_platform/cloud_mid"
+2:0/0/custom_data_1 = "cloud_mid"
+2:0/0/custom_data_2 = "moving_platform"
+2:0/0/custom_data_3 = "one_way"
+2:0/0/custom_data_4 = "vol2"
+3:0/0 = 0
+3:0/0/physics_layer_1/polygon_0/points = PackedVector2Array(-8, -6, 8, -6, 8, -3, -8, -3)
+3:0/0/physics_layer_1/polygon_0/one_way = true
+3:0/0/custom_data_0 = "vol2/moving_platform/cloud_right"
+3:0/0/custom_data_1 = "cloud_right"
+3:0/0/custom_data_2 = "moving_platform"
+3:0/0/custom_data_3 = "one_way"
+3:0/0/custom_data_4 = "vol2"
+4:0/0 = 0
+4:0/0/physics_layer_1/polygon_0/points = PackedVector2Array(-8, -5, 8, -5, 8, -2, -8, -2)
+4:0/0/physics_layer_1/polygon_0/one_way = true
+4:0/0/custom_data_0 = "vol2/moving_platform/metal_left"
+4:0/0/custom_data_1 = "metal_left"
+4:0/0/custom_data_2 = "moving_platform"
+4:0/0/custom_data_3 = "one_way"
+4:0/0/custom_data_4 = "vol2"
+5:0/0 = 0
+5:0/0/physics_layer_1/polygon_0/points = PackedVector2Array(-8, -5, 8, -5, 8, -2, -8, -2)
+5:0/0/physics_layer_1/polygon_0/one_way = true
+5:0/0/custom_data_0 = "vol2/moving_platform/metal_mid"
+5:0/0/custom_data_1 = "metal_mid"
+5:0/0/custom_data_2 = "moving_platform"
+5:0/0/custom_data_3 = "one_way"
+5:0/0/custom_data_4 = "vol2"
+6:0/0 = 0
+6:0/0/physics_layer_1/polygon_0/points = PackedVector2Array(-8, -5, 8, -5, 8, -2, -8, -2)
+6:0/0/physics_layer_1/polygon_0/one_way = true
+6:0/0/custom_data_0 = "vol2/moving_platform/metal_right"
+6:0/0/custom_data_1 = "metal_right"
+6:0/0/custom_data_2 = "moving_platform"
+6:0/0/custom_data_3 = "one_way"
+6:0/0/custom_data_4 = "vol2"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_puqcv"]
+resource_name = "洞穴与遗迹 · 洞穴单向平台 | Vol. 2 / Cave Platforms"
+texture = ExtResource("2_a16gw")
+0:0/0 = 0
+0:0/0/physics_layer_1/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, -5, -8, -5)
+0:0/0/physics_layer_1/polygon_0/one_way = true
+0:0/0/custom_data_0 = "vol2/platforms/cave_plat_left"
+0:0/0/custom_data_1 = "cave_plat_left"
+0:0/0/custom_data_2 = "platforms"
+0:0/0/custom_data_3 = "one_way"
+0:0/0/custom_data_4 = "vol2"
+1:0/0 = 0
+1:0/0/physics_layer_1/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, -5, -8, -5)
+1:0/0/physics_layer_1/polygon_0/one_way = true
+1:0/0/custom_data_0 = "vol2/platforms/cave_plat_mid"
+1:0/0/custom_data_1 = "cave_plat_mid"
+1:0/0/custom_data_2 = "platforms"
+1:0/0/custom_data_3 = "one_way"
+1:0/0/custom_data_4 = "vol2"
+2:0/0 = 0
+2:0/0/physics_layer_1/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, -5, -8, -5)
+2:0/0/physics_layer_1/polygon_0/one_way = true
+2:0/0/custom_data_0 = "vol2/platforms/cave_plat_right"
+2:0/0/custom_data_1 = "cave_plat_right"
+2:0/0/custom_data_2 = "platforms"
+2:0/0/custom_data_3 = "one_way"
+2:0/0/custom_data_4 = "vol2"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_n630k"]
+resource_name = "洞穴与遗迹 · 火山单向平台 | Vol. 2 / Lava Platforms"
+texture = ExtResource("3_52k2u")
+0:0/0 = 0
+0:0/0/physics_layer_1/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, -5, -8, -5)
+0:0/0/physics_layer_1/polygon_0/one_way = true
+0:0/0/custom_data_0 = "vol2/platforms/lava_plat_left"
+0:0/0/custom_data_1 = "lava_plat_left"
+0:0/0/custom_data_2 = "platforms"
+0:0/0/custom_data_3 = "one_way"
+0:0/0/custom_data_4 = "vol2"
+1:0/0 = 0
+1:0/0/physics_layer_1/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, -5, -8, -5)
+1:0/0/physics_layer_1/polygon_0/one_way = true
+1:0/0/custom_data_0 = "vol2/platforms/lava_plat_mid"
+1:0/0/custom_data_1 = "lava_plat_mid"
+1:0/0/custom_data_2 = "platforms"
+1:0/0/custom_data_3 = "one_way"
+1:0/0/custom_data_4 = "vol2"
+2:0/0 = 0
+2:0/0/physics_layer_1/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, -5, -8, -5)
+2:0/0/physics_layer_1/polygon_0/one_way = true
+2:0/0/custom_data_0 = "vol2/platforms/lava_plat_right"
+2:0/0/custom_data_1 = "lava_plat_right"
+2:0/0/custom_data_2 = "platforms"
+2:0/0/custom_data_3 = "one_way"
+2:0/0/custom_data_4 = "vol2"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_l17um"]
+resource_name = "洞穴与遗迹 · 遗迹单向平台 | Vol. 2 / Ruins Platforms"
+texture = ExtResource("4_c64hw")
+0:0/0 = 0
+0:0/0/physics_layer_1/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, -5, -8, -5)
+0:0/0/physics_layer_1/polygon_0/one_way = true
+0:0/0/custom_data_0 = "vol2/platforms/ruins_plat_left"
+0:0/0/custom_data_1 = "ruins_plat_left"
+0:0/0/custom_data_2 = "platforms"
+0:0/0/custom_data_3 = "one_way"
+0:0/0/custom_data_4 = "vol2"
+1:0/0 = 0
+1:0/0/physics_layer_1/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, -5, -8, -5)
+1:0/0/physics_layer_1/polygon_0/one_way = true
+1:0/0/custom_data_0 = "vol2/platforms/ruins_plat_mid"
+1:0/0/custom_data_1 = "ruins_plat_mid"
+1:0/0/custom_data_2 = "platforms"
+1:0/0/custom_data_3 = "one_way"
+1:0/0/custom_data_4 = "vol2"
+2:0/0 = 0
+2:0/0/physics_layer_1/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, -5, -8, -5)
+2:0/0/physics_layer_1/polygon_0/one_way = true
+2:0/0/custom_data_0 = "vol2/platforms/ruins_plat_right"
+2:0/0/custom_data_1 = "ruins_plat_right"
+2:0/0/custom_data_2 = "platforms"
+2:0/0/custom_data_3 = "one_way"
+2:0/0/custom_data_4 = "vol2"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_7bs56"]
+resource_name = "洞穴与遗迹 · 天空单向平台 | Vol. 2 / Sky Platforms"
+texture = ExtResource("5_nie6b")
+0:0/0 = 0
+0:0/0/physics_layer_1/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, -5, -8, -5)
+0:0/0/physics_layer_1/polygon_0/one_way = true
+0:0/0/custom_data_0 = "vol2/platforms/sky_plat_left"
+0:0/0/custom_data_1 = "sky_plat_left"
+0:0/0/custom_data_2 = "platforms"
+0:0/0/custom_data_3 = "one_way"
+0:0/0/custom_data_4 = "vol2"
+1:0/0 = 0
+1:0/0/physics_layer_1/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, -5, -8, -5)
+1:0/0/physics_layer_1/polygon_0/one_way = true
+1:0/0/custom_data_0 = "vol2/platforms/sky_plat_mid"
+1:0/0/custom_data_1 = "sky_plat_mid"
+1:0/0/custom_data_2 = "platforms"
+1:0/0/custom_data_3 = "one_way"
+1:0/0/custom_data_4 = "vol2"
+2:0/0 = 0
+2:0/0/physics_layer_1/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, -5, -8, -5)
+2:0/0/physics_layer_1/polygon_0/one_way = true
+2:0/0/custom_data_0 = "vol2/platforms/sky_plat_right"
+2:0/0/custom_data_1 = "sky_plat_right"
+2:0/0/custom_data_2 = "platforms"
+2:0/0/custom_data_3 = "one_way"
+2:0/0/custom_data_4 = "vol2"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ipenw"]
+resource_name = "城堡与沼泽 · 移动平台组件 | Vol. 3 / Moving Platform Parts"
+texture = ExtResource("6_w6ekn")
+1:0/0 = 0
+1:0/0/physics_layer_1/polygon_0/points = PackedVector2Array(-8, -6, 8, -6, 8, -3, -8, -3)
+1:0/0/physics_layer_1/polygon_0/one_way = true
+1:0/0/custom_data_0 = "vol3/moving_platform/cloud_left"
+1:0/0/custom_data_1 = "cloud_left"
+1:0/0/custom_data_2 = "moving_platform"
+1:0/0/custom_data_3 = "one_way"
+1:0/0/custom_data_4 = "vol3"
+2:0/0 = 0
+2:0/0/physics_layer_1/polygon_0/points = PackedVector2Array(-8, -7, 8, -7, 8, -4, -8, -4)
+2:0/0/physics_layer_1/polygon_0/one_way = true
+2:0/0/custom_data_0 = "vol3/moving_platform/cloud_mid"
+2:0/0/custom_data_1 = "cloud_mid"
+2:0/0/custom_data_2 = "moving_platform"
+2:0/0/custom_data_3 = "one_way"
+2:0/0/custom_data_4 = "vol3"
+3:0/0 = 0
+3:0/0/physics_layer_1/polygon_0/points = PackedVector2Array(-8, -6, 8, -6, 8, -3, -8, -3)
+3:0/0/physics_layer_1/polygon_0/one_way = true
+3:0/0/custom_data_0 = "vol3/moving_platform/cloud_right"
+3:0/0/custom_data_1 = "cloud_right"
+3:0/0/custom_data_2 = "moving_platform"
+3:0/0/custom_data_3 = "one_way"
+3:0/0/custom_data_4 = "vol3"
+4:0/0 = 0
+4:0/0/physics_layer_1/polygon_0/points = PackedVector2Array(-8, -5, 8, -5, 8, -2, -8, -2)
+4:0/0/physics_layer_1/polygon_0/one_way = true
+4:0/0/custom_data_0 = "vol3/moving_platform/metal_left"
+4:0/0/custom_data_1 = "metal_left"
+4:0/0/custom_data_2 = "moving_platform"
+4:0/0/custom_data_3 = "one_way"
+4:0/0/custom_data_4 = "vol3"
+5:0/0 = 0
+5:0/0/physics_layer_1/polygon_0/points = PackedVector2Array(-8, -5, 8, -5, 8, -2, -8, -2)
+5:0/0/physics_layer_1/polygon_0/one_way = true
+5:0/0/custom_data_0 = "vol3/moving_platform/metal_mid"
+5:0/0/custom_data_1 = "metal_mid"
+5:0/0/custom_data_2 = "moving_platform"
+5:0/0/custom_data_3 = "one_way"
+5:0/0/custom_data_4 = "vol3"
+6:0/0 = 0
+6:0/0/physics_layer_1/polygon_0/points = PackedVector2Array(-8, -5, 8, -5, 8, -2, -8, -2)
+6:0/0/physics_layer_1/polygon_0/one_way = true
+6:0/0/custom_data_0 = "vol3/moving_platform/metal_right"
+6:0/0/custom_data_1 = "metal_right"
+6:0/0/custom_data_2 = "moving_platform"
+6:0/0/custom_data_3 = "one_way"
+6:0/0/custom_data_4 = "vol3"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_cj01l"]
+resource_name = "城堡与沼泽 · 城堡单向平台 | Vol. 3 / Castle Platforms"
+texture = ExtResource("7_xb12x")
+0:0/0 = 0
+0:0/0/physics_layer_1/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, -5, -8, -5)
+0:0/0/physics_layer_1/polygon_0/one_way = true
+0:0/0/custom_data_0 = "vol3/platforms/castle_plat_left"
+0:0/0/custom_data_1 = "castle_plat_left"
+0:0/0/custom_data_2 = "platforms"
+0:0/0/custom_data_3 = "one_way"
+0:0/0/custom_data_4 = "vol3"
+1:0/0 = 0
+1:0/0/physics_layer_1/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, -5, -8, -5)
+1:0/0/physics_layer_1/polygon_0/one_way = true
+1:0/0/custom_data_0 = "vol3/platforms/castle_plat_mid"
+1:0/0/custom_data_1 = "castle_plat_mid"
+1:0/0/custom_data_2 = "platforms"
+1:0/0/custom_data_3 = "one_way"
+1:0/0/custom_data_4 = "vol3"
+2:0/0 = 0
+2:0/0/physics_layer_1/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, -5, -8, -5)
+2:0/0/physics_layer_1/polygon_0/one_way = true
+2:0/0/custom_data_0 = "vol3/platforms/castle_plat_right"
+2:0/0/custom_data_1 = "castle_plat_right"
+2:0/0/custom_data_2 = "platforms"
+2:0/0/custom_data_3 = "one_way"
+2:0/0/custom_data_4 = "vol3"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_gb3q6"]
+resource_name = "城堡与沼泽 · 沙漠单向平台 | Vol. 3 / Desert Platforms"
+texture = ExtResource("8_ixqbj")
+0:0/0 = 0
+0:0/0/physics_layer_1/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, -5, -8, -5)
+0:0/0/physics_layer_1/polygon_0/one_way = true
+0:0/0/custom_data_0 = "vol3/platforms/desert_plat_left"
+0:0/0/custom_data_1 = "desert_plat_left"
+0:0/0/custom_data_2 = "platforms"
+0:0/0/custom_data_3 = "one_way"
+0:0/0/custom_data_4 = "vol3"
+1:0/0 = 0
+1:0/0/physics_layer_1/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, -5, -8, -5)
+1:0/0/physics_layer_1/polygon_0/one_way = true
+1:0/0/custom_data_0 = "vol3/platforms/desert_plat_mid"
+1:0/0/custom_data_1 = "desert_plat_mid"
+1:0/0/custom_data_2 = "platforms"
+1:0/0/custom_data_3 = "one_way"
+1:0/0/custom_data_4 = "vol3"
+2:0/0 = 0
+2:0/0/physics_layer_1/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, -5, -8, -5)
+2:0/0/physics_layer_1/polygon_0/one_way = true
+2:0/0/custom_data_0 = "vol3/platforms/desert_plat_right"
+2:0/0/custom_data_1 = "desert_plat_right"
+2:0/0/custom_data_2 = "platforms"
+2:0/0/custom_data_3 = "one_way"
+2:0/0/custom_data_4 = "vol3"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_exbbu"]
+resource_name = "城堡与沼泽 · 冰地单向平台 | Vol. 3 / Ice Platforms"
+texture = ExtResource("9_mu4l3")
+0:0/0 = 0
+0:0/0/physics_layer_1/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, -5, -8, -5)
+0:0/0/physics_layer_1/polygon_0/one_way = true
+0:0/0/custom_data_0 = "vol3/platforms/ice_plat_left"
+0:0/0/custom_data_1 = "ice_plat_left"
+0:0/0/custom_data_2 = "platforms"
+0:0/0/custom_data_3 = "one_way"
+0:0/0/custom_data_4 = "vol3"
+1:0/0 = 0
+1:0/0/physics_layer_1/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, -5, -8, -5)
+1:0/0/physics_layer_1/polygon_0/one_way = true
+1:0/0/custom_data_0 = "vol3/platforms/ice_plat_mid"
+1:0/0/custom_data_1 = "ice_plat_mid"
+1:0/0/custom_data_2 = "platforms"
+1:0/0/custom_data_3 = "one_way"
+1:0/0/custom_data_4 = "vol3"
+2:0/0 = 0
+2:0/0/physics_layer_1/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, -5, -8, -5)
+2:0/0/physics_layer_1/polygon_0/one_way = true
+2:0/0/custom_data_0 = "vol3/platforms/ice_plat_right"
+2:0/0/custom_data_1 = "ice_plat_right"
+2:0/0/custom_data_2 = "platforms"
+2:0/0/custom_data_3 = "one_way"
+2:0/0/custom_data_4 = "vol3"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_4q38r"]
+resource_name = "城堡与沼泽 · 沼泽单向平台 | Vol. 3 / Swamp Platforms"
+texture = ExtResource("10_1tcss")
+0:0/0 = 0
+0:0/0/physics_layer_1/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, -5, -8, -5)
+0:0/0/physics_layer_1/polygon_0/one_way = true
+0:0/0/custom_data_0 = "vol3/platforms/swamp_plat_left"
+0:0/0/custom_data_1 = "swamp_plat_left"
+0:0/0/custom_data_2 = "platforms"
+0:0/0/custom_data_3 = "one_way"
+0:0/0/custom_data_4 = "vol3"
+1:0/0 = 0
+1:0/0/physics_layer_1/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, -5, -8, -5)
+1:0/0/physics_layer_1/polygon_0/one_way = true
+1:0/0/custom_data_0 = "vol3/platforms/swamp_plat_mid"
+1:0/0/custom_data_1 = "swamp_plat_mid"
+1:0/0/custom_data_2 = "platforms"
+1:0/0/custom_data_3 = "one_way"
+1:0/0/custom_data_4 = "vol3"
+2:0/0 = 0
+2:0/0/physics_layer_1/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, -5, -8, -5)
+2:0/0/physics_layer_1/polygon_0/one_way = true
+2:0/0/custom_data_0 = "vol3/platforms/swamp_plat_right"
+2:0/0/custom_data_1 = "swamp_plat_right"
+2:0/0/custom_data_2 = "platforms"
+2:0/0/custom_data_3 = "one_way"
+2:0/0/custom_data_4 = "vol3"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_urrg4"]
+resource_name = "森林 · 草地单向平台 | Forest / Grass Platforms"
+texture = ExtResource("11_sxl36")
+0:0/0 = 0
+0:0/0/physics_layer_1/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, -5, -8, -5)
+0:0/0/physics_layer_1/polygon_0/one_way = true
+0:0/0/custom_data_0 = "forest/platforms/grass_plat_left"
+0:0/0/custom_data_1 = "grass_plat_left"
+0:0/0/custom_data_2 = "platforms"
+0:0/0/custom_data_3 = "one_way"
+0:0/0/custom_data_4 = "forest"
+1:0/0 = 0
+1:0/0/physics_layer_1/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, -5, -8, -5)
+1:0/0/physics_layer_1/polygon_0/one_way = true
+1:0/0/custom_data_0 = "forest/platforms/grass_plat_mid"
+1:0/0/custom_data_1 = "grass_plat_mid"
+1:0/0/custom_data_2 = "platforms"
+1:0/0/custom_data_3 = "one_way"
+1:0/0/custom_data_4 = "forest"
+2:0/0 = 0
+2:0/0/physics_layer_1/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, -5, -8, -5)
+2:0/0/physics_layer_1/polygon_0/one_way = true
+2:0/0/custom_data_0 = "forest/platforms/grass_plat_right"
+2:0/0/custom_data_1 = "grass_plat_right"
+2:0/0/custom_data_2 = "platforms"
+2:0/0/custom_data_3 = "one_way"
+2:0/0/custom_data_4 = "forest"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_bbdrx"]
+resource_name = "森林 · 沙地单向平台 | Forest / Sand Platforms"
+texture = ExtResource("12_hmcyl")
+0:0/0 = 0
+0:0/0/physics_layer_1/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, -5, -8, -5)
+0:0/0/physics_layer_1/polygon_0/one_way = true
+0:0/0/custom_data_0 = "forest/platforms/sand_plat_left"
+0:0/0/custom_data_1 = "sand_plat_left"
+0:0/0/custom_data_2 = "platforms"
+0:0/0/custom_data_3 = "one_way"
+0:0/0/custom_data_4 = "forest"
+1:0/0 = 0
+1:0/0/physics_layer_1/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, -5, -8, -5)
+1:0/0/physics_layer_1/polygon_0/one_way = true
+1:0/0/custom_data_0 = "forest/platforms/sand_plat_mid"
+1:0/0/custom_data_1 = "sand_plat_mid"
+1:0/0/custom_data_2 = "platforms"
+1:0/0/custom_data_3 = "one_way"
+1:0/0/custom_data_4 = "forest"
+2:0/0 = 0
+2:0/0/physics_layer_1/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, -5, -8, -5)
+2:0/0/physics_layer_1/polygon_0/one_way = true
+2:0/0/custom_data_0 = "forest/platforms/sand_plat_right"
+2:0/0/custom_data_1 = "sand_plat_right"
+2:0/0/custom_data_2 = "platforms"
+2:0/0/custom_data_3 = "one_way"
+2:0/0/custom_data_4 = "forest"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_4o8tf"]
+resource_name = "森林 · 雪地单向平台 | Forest / Snow Platforms"
+texture = ExtResource("13_6kydw")
+0:0/0 = 0
+0:0/0/physics_layer_1/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, -5, -8, -5)
+0:0/0/physics_layer_1/polygon_0/one_way = true
+0:0/0/custom_data_0 = "forest/platforms/snow_plat_left"
+0:0/0/custom_data_1 = "snow_plat_left"
+0:0/0/custom_data_2 = "platforms"
+0:0/0/custom_data_3 = "one_way"
+0:0/0/custom_data_4 = "forest"
+1:0/0 = 0
+1:0/0/physics_layer_1/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, -5, -8, -5)
+1:0/0/physics_layer_1/polygon_0/one_way = true
+1:0/0/custom_data_0 = "forest/platforms/snow_plat_mid"
+1:0/0/custom_data_1 = "snow_plat_mid"
+1:0/0/custom_data_2 = "platforms"
+1:0/0/custom_data_3 = "one_way"
+1:0/0/custom_data_4 = "forest"
+2:0/0 = 0
+2:0/0/physics_layer_1/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, -5, -8, -5)
+2:0/0/physics_layer_1/polygon_0/one_way = true
+2:0/0/custom_data_0 = "forest/platforms/snow_plat_right"
+2:0/0/custom_data_1 = "snow_plat_right"
+2:0/0/custom_data_2 = "platforms"
+2:0/0/custom_data_3 = "one_way"
+2:0/0/custom_data_4 = "forest"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_skf2a"]
+resource_name = "森林 · 岩石单向平台 | Forest / Stone Platforms"
+texture = ExtResource("14_7woem")
+0:0/0 = 0
+0:0/0/physics_layer_1/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, -5, -8, -5)
+0:0/0/physics_layer_1/polygon_0/one_way = true
+0:0/0/custom_data_0 = "forest/platforms/stone_plat_left"
+0:0/0/custom_data_1 = "stone_plat_left"
+0:0/0/custom_data_2 = "platforms"
+0:0/0/custom_data_3 = "one_way"
+0:0/0/custom_data_4 = "forest"
+1:0/0 = 0
+1:0/0/physics_layer_1/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, -5, -8, -5)
+1:0/0/physics_layer_1/polygon_0/one_way = true
+1:0/0/custom_data_0 = "forest/platforms/stone_plat_mid"
+1:0/0/custom_data_1 = "stone_plat_mid"
+1:0/0/custom_data_2 = "platforms"
+1:0/0/custom_data_3 = "one_way"
+1:0/0/custom_data_4 = "forest"
+2:0/0 = 0
+2:0/0/physics_layer_1/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, -5, -8, -5)
+2:0/0/physics_layer_1/polygon_0/one_way = true
+2:0/0/custom_data_0 = "forest/platforms/stone_plat_right"
+2:0/0/custom_data_1 = "stone_plat_right"
+2:0/0/custom_data_2 = "platforms"
+2:0/0/custom_data_3 = "one_way"
+2:0/0/custom_data_4 = "forest"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_5g4jx"]
+resource_name = "森林 · 场景道具 | Forest / Props"
+texture = ExtResource("15_wq5mm")
+10:0/0 = 0
+10:0/0/physics_layer_1/polygon_0/points = PackedVector2Array(-8, -3, 8, -3, 8, 0, -8, 0)
+10:0/0/physics_layer_1/polygon_0/one_way = true
+10:0/0/custom_data_0 = "forest/props/wood_bridge"
+10:0/0/custom_data_1 = "wood_bridge"
+10:0/0/custom_data_2 = "props"
+10:0/0/custom_data_3 = "one_way"
+10:0/0/custom_data_4 = "forest"
+
+[resource]
+resource_name = "02_单向平台"
+physics_layer_0/collision_layer = 1
+physics_layer_0/collision_mask = 4
+physics_layer_1/collision_layer = 2
+physics_layer_1/collision_mask = 4
+physics_layer_2/collision_layer = 8
+physics_layer_2/collision_mask = 4
+custom_data_layer_0/name = "asset_key"
+custom_data_layer_0/type = 4
+custom_data_layer_1/name = "display_name"
+custom_data_layer_1/type = 4
+custom_data_layer_2/name = "category"
+custom_data_layer_2/type = 4
+custom_data_layer_3/name = "behavior"
+custom_data_layer_3/type = 4
+custom_data_layer_4/name = "pack"
+custom_data_layer_4/type = 4
+sources/5 = SubResource("TileSetAtlasSource_urrg4")
+sources/6 = SubResource("TileSetAtlasSource_bbdrx")
+sources/7 = SubResource("TileSetAtlasSource_4o8tf")
+sources/8 = SubResource("TileSetAtlasSource_skf2a")
+sources/9 = SubResource("TileSetAtlasSource_5g4jx")
+sources/24 = SubResource("TileSetAtlasSource_ko3d6")
+sources/25 = SubResource("TileSetAtlasSource_puqcv")
+sources/26 = SubResource("TileSetAtlasSource_n630k")
+sources/27 = SubResource("TileSetAtlasSource_l17um")
+sources/28 = SubResource("TileSetAtlasSource_7bs56")
+sources/45 = SubResource("TileSetAtlasSource_ipenw")
+sources/46 = SubResource("TileSetAtlasSource_cj01l")
+sources/47 = SubResource("TileSetAtlasSource_gb3q6")
+sources/48 = SubResource("TileSetAtlasSource_exbbu")
+sources/49 = SubResource("TileSetAtlasSource_4q38r")
+pattern_0 = SubResource("TileMapPattern_728rq")
+pattern_1 = SubResource("TileMapPattern_t0awl")
+pattern_2 = SubResource("TileMapPattern_1mlig")
+pattern_3 = SubResource("TileMapPattern_vy8en")
+pattern_4 = SubResource("TileMapPattern_4cada")
+pattern_5 = SubResource("TileMapPattern_a2bt5")
+pattern_6 = SubResource("TileMapPattern_d14wd")
+pattern_7 = SubResource("TileMapPattern_y2yug")
+pattern_8 = SubResource("TileMapPattern_fkol0")
+pattern_9 = SubResource("TileMapPattern_xentj")
+pattern_10 = SubResource("TileMapPattern_kp8bl")
+pattern_11 = SubResource("TileMapPattern_36iyc")
